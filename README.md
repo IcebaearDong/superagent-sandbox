@@ -1,7 +1,10 @@
-# superagent-sandbox
+# harnessctl docs
 
-Sandbox for dsh-superagent end-to-end testing.
+The operator documentation for harnessctl, kept as plain Markdown under `docs/`.
 
-## Status
+Run the spell check with:
 
-This setnence has a deliberate typo. The word recieve is also mispeled.
+    node scripts/check-docs.mjs
+
+It exits 1 and prints `file:line: word` for every word in the prose that is not in
+`scripts/words.txt`, and exits 0 when the documentation is clean.

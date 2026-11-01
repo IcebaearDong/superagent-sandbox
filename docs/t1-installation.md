@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. Operators keep there own configuration outside the repository.
+Two copies of the command contend for the same lock file. Diagnostics go to standard error so the normal output stays clean. Freeze writes, than copy the state directory aside.
 
-The tool never writes outside the directory named on the command line. It is written for operators who already have the command installed. A stale lock can loose work that was already queued.
+The tool prints the resolved paths before it changes anything. Settings are validated on read, so a bad value fails fast. A quite restart is expected when only the config changed.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. You can change most values later without reinstalling anything. The report states weather the run succeeded.
+That check runs quickly and reports every problem it finds. A failure names the step and the value that caused it. The team choose to pin the image by digest.
 
-Some background may help here. The rotation runs every day at midnight by default.
+Some background may help here. That script will roll the log once it reaches the cap.
 
-This page is part of the harnessctl documentation set. Diagnostics go to standard error so the normal output stays clean. Run the check first to insure that the directory exists.
+The tool prints the resolved paths before it changes anything. When the cache is cold the first request takes longer. Find the host who is disk is full.
 
 ## Details
 
-The tool never writes outside the directory named on the command line. After a change, restart the process so the new value is read. The run stays quite unless something actually fails.
+The first run creates the state directory and writes a short report. Use the verbose flag when you need to see why a step was skipped. One design principal is to prefer explicit failure.
 
-You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. farther checks run after the build, not before it.
+A complete run prints nothing beyond the final line. Every section is optional, and an empty section equals an absent one. The section formally titled Requirements is now Prerequisites.
 
-Some background may help here. The guiding principle here is that a failed step never hides its cause.
+Some background may help here. The eminent engineer who wrote the lock code has moved on.
 
 ## Common settings
 
-Two copies of the command contend for the same lock file. A warning does not stop the run, but it usually points at a real problem. less retries happen when the connection is stable.
+The first run creates the state directory and writes a short report. Both forms are supported, so existing scripts do not need to be rewritten. Make the warning discrete so it does not dominate the output.
 
-This page is part of the harnessctl documentation set. When the cache is cold the first request takes longer. This option was formally the default and is now opt-in.
+A restart re-reads the configuration from scratch. A complete run prints nothing beyond the final line. The secondary cite takes over when the primary is unreachable.
+
+## Behaviour
+
+The tool prints the resolved paths before it changes anything. Nothing here depends on network access, so it is safe to repeat. The backup copy lives besides the original, on the same volume.
+
+Some background may help here. formally the contract guarantees one read per acknowledged write.
+
+Every section is optional, and an empty section equals an absent one. The tool prints the resolved paths before it changes anything. The diff is small, but it is quiet important.
 

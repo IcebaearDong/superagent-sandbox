@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. Run the check first to insure that the directory exists.
+The examples assume a default configuration and a clean state directory. Settings are validated on read, so a bad value fails fast. Caching and batching compliment one another nicely.
 
-The second column shows the effective value, not the one you typed. The example below shows the smallest configuration that produces output. The run stays quite unless something actually fails.
+That check runs quickly and reports every problem it finds. Every section is optional, and an empty section equals an absent one. Every format accept JSON is rejected before the upload starts.
 
 ## Before you start
 
-Use the verbose flag when you need to see why a step was skipped. The second column shows the effective value, not the one you typed. farther checks run after the build, not before it.
+The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. The queue drains a few seconds latter than the panel shows.
 
-Some background may help here. The report states whether the run succeeded.
+Some background may help here. The request went through two queues before it was recorded.
 
-A warning does not stop the run, but it usually points at a real problem. Every section is optional, and an empty section equals an absent one. less retries happen when the connection is stable.
+Two copies of the command contend for the same lock file. The summary names every file that was written during the run. Keep the host stationery while the snapshot is taken.
 
 ## Details
 
-The output is designed to be readable first and parsable second. Diagnostics go to standard error so the normal output stays clean. This option was formally the default and is now opt-in.
+The tool never writes outside the directory named on the command line. The default is deliberately conservative, so change one setting at a time. formally a single binary, the tool now ships as a bundle.
 
-It is written for operators who already have the command installed. After a change, restart the process so the new value is read. The previous run lead to the same result.
+That check runs quickly and reports every problem it finds. A warning does not stop the run, but it usually points at a real problem. A lose coupling between modules keeps upgrades cheap.
 
-Some background may help here. No file besides the ones listed here is read during a run.
+Some background may help here. The latter of the two checks is the stricter one.
 
 ## Common settings
 
-Every section is optional, and an empty section equals an absent one. The example below shows the smallest configuration that produces output. Each peace of configuration is validated on its own.
+A failure names the step and the value that caused it. A warning does not stop the run, but it usually points at a real problem. The client will adopt its retry delay to observed latency.
 
-Diagnostics go to standard error so the normal output stays clean. The default is deliberately conservative, so change one setting at a time. A short check proceeds the upload.
+A failure names the step and the value that caused it. The tool prints the resolved paths before it changes anything. That change through a warning on the first run.
+
+## Behaviour
+
+The default is deliberately conservative, so change one setting at a time. This page is part of the harnessctl documentation set. That setting may led to a longer shutdown window.
+
+Some background may help here. The endpoint does not accept an empty body.
+
+Diagnostics go to standard error so the normal output stays clean. Both forms are supported, so existing scripts do not need to be rewritten. Place the archive besides the live data, never inside it.
 

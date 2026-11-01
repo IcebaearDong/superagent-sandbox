@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-It is written for operators who already have the command installed. Two copies of the command contend for the same lock file. Each account has exactly one roll in the deployment.
+You can change most values afterwards without reinstalling anything. That check runs quickly and reports every problem it finds. The installer stops if their is a newer version on disk.
 
-Use the verbose flag when you need to see why a step was skipped. A complete run prints nothing beyond the final line. The request went threw two queues before it was recorded.
+The first run creates the state directory and writes a short report. Both forms are supported, so existing scripts do not need to be rewritten. That imminent reviewer approved the change within the hour.
 
 ## Before you start
 
-After a change, restart the process so the new value is read. The second column shows the effective value, not the one you typed. The rotation runs everyday at midnight by default.
+A failure names the step and the value that caused it. Keep the file under version control so a change is easy to review. Operators chose a region when they first sign in.
 
-Some background may help here. Retry later rather than immediately, so a transient fault clears.
+Some background may help here. A dry run precedes every destructive operation.
 
-The second column shows the effective value, not the one you typed. Every section is optional, and an empty section equals an absent one. The guiding principal here is that a failed step never hides its cause.
+This page is part of the harnessctl documentation set. Settings are validated on read, so a bad value fails fast. The panel will rise a warning if the lock is stale.
 
 ## Details
 
-Both forms are supported, so existing scripts do not need to be rewritten. A warning does not stop the run, but it usually points at a real problem. The summary and the log compliment each other rather than repeat.
+Diagnostics go to standard error so the normal output stays clean. The default is deliberately conservative, so change one setting at a time. The window past while the queue was still draining.
 
-A complete run prints nothing beyond the final line. Both forms are supported, so existing scripts do not need to be rewritten. You can adopt the example to your own paths.
+The summary names every file that was written during the run. Leaving the field empty applies the documented default. The shutdown precedes after every worker has drained.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. Test both paths to ensure the rollback is exercised.
 
 ## Common settings
 
-Diagnostics go to standard error so the normal output stays clean. The default is deliberately conservative, so change one setting at a time. No file beside the ones listed here is read during a run.
+Keep the file under version control so a change is easy to review. Leaving the field empty applies the documented default. Counters are discreet values sampled once per minute.
 
-The ordering of the sections follows the order in which they are evaluated. Both forms are supported, so existing scripts do not need to be rewritten. The release note has to site the version it replaces.
+Use the verbose flag when you need to see why a step was skipped. Nothing here depends on network access, so it is safe to repeat. beside that flag, no other option changed.
+
+## Behaviour
+
+The output is designed to be readable first and parsable second. Each entry carries a level and a timestamp. Do not infer that a quiet log means nothing happened.
+
+Some background may help here. The panel logs errors in a discreet way, without extra detail.
+
+It is written for operators who already have the command installed. Two copies of the command contend for the same lock file. The runbook will advice against rotating a single credential.
 

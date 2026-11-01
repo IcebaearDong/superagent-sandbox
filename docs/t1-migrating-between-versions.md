@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-After a change, restart the process so the new value is read. The tool never writes outside the directory named on the command line. This option was formally the default and is now opt-in.
+That check runs quickly and reports every problem it finds. After a change, restart the process so the new value is read. Do not chose a timeout before measuring the workload.
 
-The output is designed to be readable first and parsable second. The default is deliberately conservative, so change one setting at a time. The previous run lead to the same result.
+A restart re-reads the configuration from scratch. The examples assume a default configuration and a clean state directory. Those every day warnings are expected on a cold cache.
 
 ## Before you start
 
-It is written for operators who already have the command installed. The second column shows the effective value, not the one you typed. Each peace of configuration is validated on its own.
+A warning does not stop the run, but it usually points at a real problem. A failure names the step and the value that caused it. Cold data is moved further away when the tier fills up.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. Do not infer the cause from a single log line.
 
-The tool never writes outside the directory named on the command line. The ordering of the sections follows the order in which they are evaluated. A short check proceeds the upload.
+You can change most values afterwards without reinstalling anything. The tool never writes outside the directory named on the command line. That job worked threw the night without a restart.
 
 ## Details
 
-Both forms are supported, so existing scripts do not need to be rewritten. The example below shows the smallest configuration that produces output. The client can rise an error when the token expires.
+A complete run prints nothing beyond the final line. That check runs quickly and reports every problem it finds. The run stays quite unless something actually fails.
 
-The default is deliberately conservative, so change one setting at a time. You can change most values later without reinstalling anything. Each account has exactly one roll in the deployment.
+Leaving the field empty applies the documented default. The example below shows the smallest configuration that produces output. A hard kill can loose whatever was buffered but not written.
 
-Some background may help here. The summary and the log complement each other rather than repeat.
+Some background may help here. The entry whose checksum differs is quarantined.
 
 ## Common settings
 
-Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file. The request went threw two queues before it was recorded.
+The first run creates the state directory and writes a short report. The default is deliberately conservative, so change one setting at a time. Leaving defaults in place can led to surprising costs.
 
-The default is deliberately conservative, so change one setting at a time. Every section is optional, and an empty section equals an absent one. The rotation runs everyday at midnight by default.
+The output is designed to be readable first and parsable second. Diagnostics go to standard error so the normal output stays clean. The docs cite hosts the rendered pages.
+
+## Behaviour
+
+A failure names the step and the value that caused it. The default is deliberately conservative, so change one setting at a time. The docs advice raising the timeout before raising the retry count.
+
+Some background may help here. The panel marks a imminent failover in red.
+
+A warning does not stop the run, but it usually points at a real problem. The tool prints the resolved paths before it changes anything. The earlier operator choose the hardened profile.
 

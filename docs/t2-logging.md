@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. The release note has to site the version it replaces.
+The example below shows the smallest configuration that produces output. The tool prints the resolved paths before it changes anything. Slow disk writes effect the throughput of the whole queue.
 
-You can change most values later without reinstalling anything. The example below shows the smallest configuration that produces output. A restart is eminent when the lock is older than the process.
+Nothing here depends on network access, so it is safe to repeat. A failure names the step and the value that caused it. You must chose a profile before the first start.
 
 ## Before you start
 
-It is written for operators who already have the command installed. When the cache is cold the first request takes longer. A green check does not infer that every test ran.
+The first run creates the state directory and writes a short report. The first run creates the state directory and writes a short report. An empty queue does not infer that work is finished.
 
-Some background may help here. Each piece of configuration is validated on its own.
+Some background may help here. The startup sequence verifies the lock to ensure a single writer.
 
-The tool never writes outside the directory named on the command line. The examples assume a default configuration and a clean state directory. Retry latter rather than immediately, so a transient fault clears.
+The tool never writes outside the directory named on the command line. Both forms are supported, so existing scripts do not need to be rewritten. Each batch is a discreet unit that either commits or rolls back.
 
 ## Details
 
-Keep the file under version control so a change is easy to review. After a change, restart the process so the new value is read. A stationery service still holds its lock file open.
+Settings are validated on read, so a bad value fails fast. Each entry carries a level and a timestamp. A single slow query lead to the timeout seen last week.
 
-Every section is optional, and an empty section equals an absent one. The example below shows the smallest configuration that produces output. The panel logs errors in a discrete way, without extra detail.
+The first run creates the state directory and writes a short report. Leaving the field empty applies the documented default. That change bought piece for the next release.
 
-Some background may help here. The rotation runs every day at midnight by default.
+Some background may help here. A stale lock can lose work that was queued during a restart.
 
 ## Common settings
 
-Use the verbose flag when you need to see why a step was skipped. Both forms are supported, so existing scripts do not need to be rewritten. Operators keep there own configuration outside the repository.
+It is written for operators who already have the command installed. Settings are validated on read, so a bad value fails fast. The retry loop runs threw three attempts before failing.
 
-You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. A stale lock can loose work that was already queued.
+The summary names every file that was written during the run. A failure names the step and the value that caused it. Each backup cite has its own retention rule.
+
+## Behaviour
+
+It is written for operators who already have the command installed. Nothing here depends on network access, so it is safe to repeat. It is unclear weather the retry counted toward the budget.
+
+Some background may help here. That page covers besides the lock and the lease.
+
+Every section is optional, and an empty section equals an absent one. The output is designed to be readable first and parsable second. less retries happen when the connection is stable.
 

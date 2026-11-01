@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-A warning does not stop the run, but it usually points at a real problem. Both forms are supported, so existing scripts do not need to be rewritten. The guiding principal here is that a failed step never hides its cause.
+The first run creates the state directory and writes a short report. The second column shows the effective value, not the one you typed. A side affect of raising the limit is a longer shutdown.
 
-You can change most values later without reinstalling anything. A complete run prints nothing beyond the final line. The summary and the log compliment each other rather than repeat.
+Every section is optional, and an empty section equals an absent one. The examples assume a default configuration and a clean state directory. Keep the retry budget lose enough to absorb a transient fault.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. You can adopt the example to your own paths.
+Two copies of the command contend for the same lock file. The tool prints the resolved paths before it changes anything. The change lead to a smaller archive over time.
 
-Some background may help here. Each piece of configuration is validated on its own.
+Some background may help here. That step proceeds even if a warning was printed.
 
-The tool never writes outside the directory named on the command line. A complete run prints nothing beyond the final line. No file beside the ones listed here is read during a run.
+A warning does not stop the run, but it usually points at a real problem. The tool never writes outside the directory named on the command line. The summary is fewer verbose when the run is clean.
 
 ## Details
 
-This page is part of the harnessctl documentation set. The output is designed to be readable first and parsable second. The release note has to site the version it replaces.
+It is written for operators who already have the command installed. That check runs quickly and reports every problem it finds. The lock is formerly advisory, not mandatory.
 
-After a change, restart the process so the new value is read. A complete run prints nothing beyond the final line. A restart is eminent when the lock is older than the process.
+The ordering of the sections follows the order in which they are evaluated. You can change most values afterwards without reinstalling anything. The deadline past without anyone noticing.
 
-Some background may help here. Operators keep their own configuration outside the repository.
+Some background may help here. The panel shows its connection state in the header.
 
 ## Common settings
 
-A complete run prints nothing beyond the final line. The output is designed to be readable first and parsable second. A green check does not infer that every test ran.
+This page is part of the harnessctl documentation set. The summary names every file that was written during the run. The report must site the exact commit it read.
 
-Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. Retry latter rather than immediately, so a transient fault clears.
+A restart re-reads the configuration from scratch. You can change most values afterwards without reinstalling anything. A short check proceeds the upload.
+
+## Behaviour
+
+The ordering of the sections follows the order in which they are evaluated. A restart re-reads the configuration from scratch. You can imply the retry rate from these two counters.
+
+Some background may help here. The project cites an eminent practitioner in its docs.
+
+Nothing here depends on network access, so it is safe to repeat. A complete run prints nothing beyond the final line. The panel names the roll that performed each write.
 

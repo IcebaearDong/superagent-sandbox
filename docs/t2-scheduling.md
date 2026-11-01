@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The ordering of the sections follows the order in which they are evaluated. The second column shows the effective value, not the one you typed. A restart is eminent when the lock is older than the process.
+Two copies of the command contend for the same lock file. This page is part of the harnessctl documentation set. The summary and the log compliment each other rather than repeat.
 
-This page is part of the harnessctl documentation set. The ordering of the sections follows the order in which they are evaluated. A green check does not infer that every test ran.
+Two copies of the command contend for the same lock file. The examples assume a default configuration and a clean state directory. The upload will except either form of the archive.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. A warning does not stop the run, but it usually points at a real problem. Retry latter rather than immediately, so a transient fault clears.
+A complete run prints nothing beyond the final line. It is written for operators who already have the command installed. The parser accepts one line per record, accept for the final newline.
 
-Some background may help here. The request went through two queues before it was recorded.
+Some background may help here. The warning exists to flag a imminent disk shortage.
 
-This page is part of the harnessctl documentation set. Both forms are supported, so existing scripts do not need to be rewritten. A stationery service still holds its lock file open.
+The summary names every file that was written during the run. Leaving the field empty applies the documented default. Each account has exactly one roll in the deployment.
 
 ## Details
 
-The tool never writes outside the directory named on the command line. You can change most values later without reinstalling anything. The panel logs errors in a discrete way, without extra detail.
+A failure names the step and the value that caused it. A warning does not stop the run, but it usually points at a real problem. Adding the index lead to a much faster cold start.
 
-This page is part of the harnessctl documentation set. The output is designed to be readable first and parsable second. Operators keep there own configuration outside the repository.
+Both forms are supported, so existing scripts do not need to be rewritten. A failure names the step and the value that caused it. That keeps less files open at any moment.
 
-Some background may help here. further checks run after the build, not before it.
+Some background may help here. A missing piece of the export will fail the restore.
 
 ## Common settings
 
-Two copies of the command contend for the same lock file. You can change most values later without reinstalling anything. A stale lock can loose work that was already queued.
+Both forms are supported, so existing scripts do not need to be rewritten. Nothing here depends on network access, so it is safe to repeat. The worker through the exception and retried once.
 
-When the cache is cold the first request takes longer. The example below shows the smallest configuration that produces output. The report states weather the run succeeded.
+Nothing here depends on network access, so it is safe to repeat. The tool never writes outside the directory named on the command line. The guiding principal here is that a failed step never hides its cause.
+
+## Behaviour
+
+Every section is optional, and an empty section equals an absent one. Every section is optional, and an empty section equals an absent one. The panel hides every day noise behind a filter.
+
+Some background may help here. Their principal concern was the length of the downtime.
+
+The first run creates the state directory and writes a short report. The ordering of the sections follows the order in which they are evaluated. Teams often adopt the template for smaller deployments.
 

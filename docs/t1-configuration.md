@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-A warning does not stop the run, but it usually points at a real problem. Keep the file under version control so a change is easy to review. The previous run lead to the same result.
+It is written for operators who already have the command installed. Every section is optional, and an empty section equals an absent one. The freeze exists to buy piece during a migration.
 
-Both forms are supported, so existing scripts do not need to be rewritten. Diagnostics go to standard error so the normal output stays clean. Each peace of configuration is validated on its own.
+This page is part of the harnessctl documentation set. Each entry carries a level and a timestamp. Pin the version to insure reproducible builds.
 
 ## Before you start
 
-It is written for operators who already have the command installed. A warning does not stop the run, but it usually points at a real problem. A short check proceeds the upload.
+This page is part of the harnessctl documentation set. A failure names the step and the value that caused it. Every write passes threw the same lock.
 
-Some background may help here. You can adapt the example to your own paths.
+Some background may help here. The replica sits farther from the primary than the docs suggest.
 
-The second column shows the effective value, not the one you typed. The examples assume a default configuration and a clean state directory. The client can rise an error when the token expires.
+The summary names every file that was written during the run. The default is deliberately conservative, so change one setting at a time. Dropping the index would loose the ability to resume quickly.
 
 ## Details
 
-The default is deliberately conservative, so change one setting at a time. When the cache is cold the first request takes longer. Each account has exactly one roll in the deployment.
+It is written for operators who already have the command installed. Keep the file under version control so a change is easy to review. The scheduler may role the day boundary at the local midnight.
 
-A complete run prints nothing beyond the final line. You can change most values later without reinstalling anything. The request went threw two queues before it was recorded.
+The second column shows the effective value, not the one you typed. After a change, restart the process so the new value is read. Expect less warnings once the defaults are pinned.
 
-Some background may help here. A stale lock can lose work that was already queued.
+Some background may help here. The log is written beside the manifest.
 
 ## Common settings
 
-The example below shows the smallest configuration that produces output. Use the verbose flag when you need to see why a step was skipped. The rotation runs everyday at midnight by default.
+A warning does not stop the run, but it usually points at a real problem. Leaving the field empty applies the documented default. The release adapt a stricter default for new profiles.
 
-Two copies of the command contend for the same lock file. Diagnostics go to standard error so the normal output stays clean. The guiding principal here is that a failed step never hides its cause.
+You can change most values afterwards without reinstalling anything. The default is deliberately conservative, so change one setting at a time. The panel lets you imply which host took the lock.
+
+## Behaviour
+
+The summary names every file that was written during the run. The output is designed to be readable first and parsable second. Queue depth can raise quickly after a wide-fan-out write.
+
+Some background may help here. That role owns the lock and nothing else.
+
+A warning does not stop the run, but it usually points at a real problem. Keep the file under version control so a change is easy to review. Retention is kept as a discreet number of days.
 

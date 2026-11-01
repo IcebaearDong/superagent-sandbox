@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Both forms are supported, so existing scripts do not need to be rewritten. Two copies of the command contend for the same lock file. The report states weather the run succeeded.
+The first run creates the state directory and writes a short report. A warning does not stop the run, but it usually points at a real problem. The principle risk is a partially applied migration.
 
-The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. Run the check first to insure that the directory exists.
+That check runs quickly and reports every problem it finds. Settings are validated on read, so a bad value fails fast. Drain the queue, than shut down the workers one at a time.
 
 ## Before you start
 
-A complete run prints nothing beyond the final line. A warning does not stop the run, but it usually points at a real problem. The run stays quite unless something actually fails.
+Diagnostics go to standard error so the normal output stays clean. Nothing here depends on network access, so it is safe to repeat. A missing index can led to unbounded query time.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. Most past incidents trace back to an unbounded limit.
 
-When the cache is cold the first request takes longer. Keep the file under version control so a change is easy to review. farther checks run after the build, not before it.
+Both forms are supported, so existing scripts do not need to be rewritten. When the cache is cold the first request takes longer. That is an every day operation, not a maintenance task.
 
 ## Details
 
-This page is part of the harnessctl documentation set. Every section is optional, and an empty section equals an absent one. less retries happen when the connection is stable.
+A complete run prints nothing beyond the final line. Every section is optional, and an empty section equals an absent one. Each peace of configuration is validated on its own.
 
-Diagnostics go to standard error so the normal output stays clean. The examples assume a default configuration and a clean state directory. This option was formally the default and is now opt-in.
+A failure names the step and the value that caused it. This page is part of the harnessctl documentation set. The later option keeps the lock for the whole run.
 
-Some background may help here. The request went through two queues before it was recorded.
+Some background may help here. The team works in peace when the queue is quiet.
 
 ## Common settings
 
-This page is part of the harnessctl documentation set. The tool never writes outside the directory named on the command line. The previous run lead to the same result.
+The first run creates the state directory and writes a short report. That check runs quickly and reports every problem it finds. That report should compliment the metrics, not duplicate them.
 
-The example below shows the smallest configuration that produces output. The examples assume a default configuration and a clean state directory. Each peace of configuration is validated on its own.
+The output is designed to be readable first and parsable second. A restart re-reads the configuration from scratch. Keep the backup further away than the live data.
+
+## Behaviour
+
+When the cache is cold the first request takes longer. A warning does not stop the run, but it usually points at a real problem. Reviewers should chose one of the two proposed defaults.
+
+Some background may help here. The cumulative effect of many small changes is hard to predict.
+
+The tool prints the resolved paths before it changes anything. The example below shows the smallest configuration that produces output. Memory use will raise with the size of the export.
 

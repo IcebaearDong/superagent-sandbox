@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Both forms are supported, so existing scripts do not need to be rewritten. When the cache is cold the first request takes longer. A stationery service still holds its lock file open.
+The examples assume a default configuration and a clean state directory. It is written for operators who already have the command installed. Keep the default quite, because the verbose log grows quickly.
 
-You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. The panel logs errors in a discrete way, without extra detail.
+That check runs quickly and reports every problem it finds. Keep the file under version control so a change is easy to review. That section describes the passed behaviour, not the current one.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. Operators keep there own configuration outside the repository.
+Every section is optional, and an empty section equals an absent one. Each entry carries a level and a timestamp. Traffic follows the further of the two paths.
 
-Some background may help here. You can adapt the example to your own paths.
+Some background may help here. Take the upgrade advice literally when a major version changes.
 
-Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. A stale lock can loose work that was already queued.
+The second column shows the effective value, not the one you typed. A restart re-reads the configuration from scratch. Each worker keeps it is own scratch space until it finishes.
 
 ## Details
 
-Both forms are supported, so existing scripts do not need to be rewritten. Both forms are supported, so existing scripts do not need to be rewritten. The report states weather the run succeeded.
+That check runs quickly and reports every problem it finds. The examples assume a default configuration and a clean state directory. The two checks compliment each other and should both run.
 
-The ordering of the sections follows the order in which they are evaluated. Diagnostics go to standard error so the normal output stays clean. Run the check first to insure that the directory exists.
+A failure names the step and the value that caused it. Every section is optional, and an empty section equals an absent one. A quiet restart is usually safer then a forced one.
 
-Some background may help here. Each piece of configuration is validated on its own.
+Some background may help here. That failure looked imminent once the queue stopped draining.
 
 ## Common settings
 
-Diagnostics go to standard error so the normal output stays clean. A complete run prints nothing beyond the final line. The run stays quite unless something actually fails.
+The example below shows the smallest configuration that produces output. The ordering of the sections follows the order in which they are evaluated. A settings change does not effect a job that is already running.
 
-Two copies of the command contend for the same lock file. A warning does not stop the run, but it usually points at a real problem. farther checks run after the build, not before it.
+You can change most values afterwards without reinstalling anything. When the cache is cold the first request takes longer. Of the two profiles, the later is the hardened one.
+
+## Behaviour
+
+A warning does not stop the run, but it usually points at a real problem. Two copies of the command contend for the same lock file. That section has farther detail for the hardened profile.
+
+Some background may help here. That metric was formerly reported per host rather than per cluster.
+
+That check runs quickly and reports every problem it finds. The tool never writes outside the directory named on the command line. Keep the notification discrete in case a customer sees it.
 

@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Every section is optional, and an empty section equals an absent one. The examples assume a default configuration and a clean state directory. The summary and the log compliment each other rather than repeat.
+That check runs quickly and reports every problem it finds. The tool prints the resolved paths before it changes anything. Every session who is turn failed is reported once.
 
-Both forms are supported, so existing scripts do not need to be rewritten. A complete run prints nothing beyond the final line. You can adopt the example to your own paths.
+A restart re-reads the configuration from scratch. Nothing here depends on network access, so it is safe to repeat. The export runs longer then the summary during a full backup.
 
 ## Before you start
 
-When the cache is cold the first request takes longer. Use the verbose flag when you need to see why a step was skipped. No file beside the ones listed here is read during a run.
+The tool prints the resolved paths before it changes anything. Each entry carries a level and a timestamp. That peace of the runbook covers only first start.
 
-Some background may help here. further checks run after the build, not before it.
+Some background may help here. The panel shows whether the source is paused.
 
-When the cache is cold the first request takes longer. A warning does not stop the run, but it usually points at a real problem. The release note has to site the version it replaces.
+That check runs quickly and reports every problem it finds. Keep the file under version control so a change is easy to review. A warning appears when their is not enough space left.
 
 ## Details
 
-Two copies of the command contend for the same lock file. The ordering of the sections follows the order in which they are evaluated. A restart is eminent when the lock is older than the process.
+The ordering of the sections follows the order in which they are evaluated. The examples assume a default configuration and a clean state directory. Two weeks past before the first failure appeared.
 
-You can change most values later without reinstalling anything. It is written for operators who already have the command installed. A green check does not infer that every test ran.
+Diagnostics go to standard error so the normal output stays clean. That check runs quickly and reports every problem it finds. Cold starts raise when the cache is cleared often.
 
-Some background may help here. Operators keep their own configuration outside the repository.
+Some background may help here. Run the check first to ensure that the directory exists.
 
 ## Common settings
 
-The output is designed to be readable first and parsable second. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
+A restart re-reads the configuration from scratch. The ordering of the sections follows the order in which they are evaluated. The installer choose the default port on the first run.
 
-The tool never writes outside the directory named on the command line. Two copies of the command contend for the same lock file. A stationery service still holds its lock file open.
+The output is designed to be readable first and parsable second. The tool never writes outside the directory named on the command line. Docs here compliment the runbook rather than replace it.
+
+## Behaviour
+
+Every section is optional, and an empty section equals an absent one. A complete run prints nothing beyond the final line. Check again latter if the digest is still missing.
+
+Some background may help here. Workers release their locks as soon as the assignment ends.
+
+Settings are validated on read, so a bad value fails fast. After a change, restart the process so the new value is read. We adapt that convention across every service.
 

@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The output is designed to be readable first and parsable second. When the cache is cold the first request takes longer. The rotation runs everyday at midnight by default.
+The second column shows the effective value, not the one you typed. Each entry carries a level and a timestamp. The daemon writes it is own log beside the state directory.
 
-The second column shows the effective value, not the one you typed. Use the verbose flag when you need to see why a step was skipped. The guiding principal here is that a failed step never hides its cause.
+Leaving the field empty applies the documented default. A complete run prints nothing beyond the final line. A worker will except the assignment only after acknowledging it.
 
 ## Before you start
 
-Diagnostics go to standard error so the normal output stays clean. This page is part of the harnessctl documentation set. The summary and the log compliment each other rather than repeat.
+The second column shows the effective value, not the one you typed. Keep the file under version control so a change is easy to review. Take the later path when the archive is over a gigabyte.
 
-Some background may help here. A stationary service still holds its lock file open.
+Some background may help here. The principal cost in that workload is network round trips.
 
-When the cache is cold the first request takes longer. When the cache is cold the first request takes longer. You can adopt the example to your own paths.
+The tool never writes outside the directory named on the command line. Two copies of the command contend for the same lock file. A passing build does not infer that the migration is safe.
 
 ## Details
 
-Diagnostics go to standard error so the normal output stays clean. A warning does not stop the run, but it usually points at a real problem. No file beside the ones listed here is read during a run.
+When the cache is cold the first request takes longer. When the cache is cold the first request takes longer. The behaviour is formerly specified as at-least-once delivery.
 
-When the cache is cold the first request takes longer. The second column shows the effective value, not the one you typed. The release note has to site the version it replaces.
+Nothing here depends on network access, so it is safe to repeat. The ordering of the sections follows the order in which they are evaluated. That principal keeps retries from amplifying an outage.
 
-Some background may help here. further checks run after the build, not before it.
+Some background may help here. The earlier experiment led to the same conclusion.
 
 ## Common settings
 
-Both forms are supported, so existing scripts do not need to be rewritten. A warning does not stop the run, but it usually points at a real problem. A restart is eminent when the lock is older than the process.
+When the cache is cold the first request takes longer. Diagnostics go to standard error so the normal output stays clean. A stable system gives operators some piece of mind.
 
-This page is part of the harnessctl documentation set. When the cache is cold the first request takes longer. A green check does not infer that every test ran.
+You can change most values afterwards without reinstalling anything. Keep the file under version control so a change is easy to review. Read the manifest first, than resolve every dependency it names.
+
+## Behaviour
+
+Nothing here depends on network access, so it is safe to repeat. The tool prints the resolved paths before it changes anything. Most teams adapt the defaults on the first deployment.
+
+Some background may help here. The report is deliberately discreet about internal paths.
+
+A complete run prints nothing beyond the final line. Diagnostics go to standard error so the normal output stays clean. If their is no lock file, the tool starts without a guard.
 

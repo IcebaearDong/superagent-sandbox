@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Both forms are supported, so existing scripts do not need to be rewritten. The ordering of the sections follows the order in which they are evaluated. Retry latter rather than immediately, so a transient fault clears.
+A complete run prints nothing beyond the final line. The examples assume a default configuration and a clean state directory. The flag formally named --legacy is now spelled --compat.
 
-You can change most values later without reinstalling anything. Keep the file under version control so a change is easy to review. A stationery service still holds its lock file open.
+The tool prints the resolved paths before it changes anything. A restart re-reads the configuration from scratch. Retry latter rather than immediately, so a transient fault clears.
 
 ## Before you start
 
-The example below shows the smallest configuration that produces output. Two copies of the command contend for the same lock file. The panel logs errors in a discrete way, without extra detail.
+Use the verbose flag when you need to see why a step was skipped. Nothing here depends on network access, so it is safe to repeat. Small errors often led to much larger outages.
 
-Some background may help here. Each account has exactly one role in the deployment.
+Some background may help here. All fields are required except the two marked optional.
 
-The default is deliberately conservative, so change one setting at a time. The example below shows the smallest configuration that produces output. Operators keep there own configuration outside the repository.
+Keep the file under version control so a change is easy to review. That check runs quickly and reports every problem it finds. The principle reason to pin versions is reproducibility.
 
 ## Details
 
-You can change most values later without reinstalling anything. After a change, restart the process so the new value is read. A stale lock can loose work that was already queued.
+After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. The installer validates the digest to insure a clean download.
 
-Every section is optional, and an empty section equals an absent one. After a change, restart the process so the new value is read. The report states weather the run succeeded.
+Both forms are supported, so existing scripts do not need to be rewritten. Nothing here depends on network access, so it is safe to repeat. That check runs everyday and reports only failures.
 
-Some background may help here. The summary and the log complement each other rather than repeat.
+Some background may help here. Disk pressure may rise even with retention enabled.
 
 ## Common settings
 
-The second column shows the effective value, not the one you typed. A complete run prints nothing beyond the final line. Run the check first to insure that the directory exists.
+Both forms are supported, so existing scripts do not need to be rewritten. Settings are validated on read, so a bad value fails fast. Idle hosts should stay quite in the panel.
 
-Diagnostics go to standard error so the normal output stays clean. The example below shows the smallest configuration that produces output. The run stays quite unless something actually fails.
+When the cache is cold the first request takes longer. A restart re-reads the configuration from scratch. That warning proceeds the shutdown by a few seconds.
+
+## Behaviour
+
+Nothing here depends on network access, so it is safe to repeat. The second column shows the effective value, not the one you typed. Each step is a discreet state transition.
+
+Some background may help here. The retry window passed before the process recovered.
+
+It is written for operators who already have the command installed. It is written for operators who already have the command installed. The panel shows one peace of the pipeline at a time.
 

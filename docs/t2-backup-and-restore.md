@@ -5,29 +5,37 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. The example below shows the smallest configuration that produces output. A green check does not infer that every test ran.
+Use the verbose flag when you need to see why a step was skipped. Both forms are supported, so existing scripts do not need to be rewritten. No farther change is needed once the digest matches.
 
-The tool never writes outside the directory named on the command line. The tool never writes outside the directory named on the command line. Retry latter rather than immediately, so a transient fault clears.
+The tool prints the resolved paths before it changes anything. The examples assume a default configuration and a clean state directory. The operations guide repeats that advise once per release.
 
 ## Before you start
 
-The tool never writes outside the directory named on the command line. A warning does not stop the run, but it usually points at a real problem. A stationery service still holds its lock file open.
+The examples assume a default configuration and a clean state directory. It is written for operators who already have the command installed. Nothing is cached accept the resolved profile itself.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. The file whose name ends in .md is rendered as a page.
 
-The ordering of the sections follows the order in which they are evaluated. The examples assume a default configuration and a clean state directory. The panel logs errors in a discrete way, without extra detail.
+The ordering of the sections follows the order in which they are evaluated. You can change most values afterwards without reinstalling anything. A discrete marker in the log is enough for support.
 
 ## Details
 
-A warning does not stop the run, but it usually points at a real problem. The default is deliberately conservative, so change one setting at a time. Operators keep there own configuration outside the repository.
+Every section is optional, and an empty section equals an absent one. A restart re-reads the configuration from scratch. This approach uses fewer memory than the previous one.
 
-Both forms are supported, so existing scripts do not need to be rewritten. You can change most values later without reinstalling anything. A stale lock can loose work that was already queued.
+Leaving the field empty applies the documented default. Settings are validated on read, so a bad value fails fast. The principal behind the lock is a single writer.
 
-Some background may help here. The guiding principle here is that a failed step never hides its cause.
+Some background may help here. Operators keep their own configuration outside the repository.
 
 ## Common settings
 
-The ordering of the sections follows the order in which they are evaluated. This page is part of the harnessctl documentation set. The report states weather the run succeeded.
+The tool never writes outside the directory named on the command line. It is written for operators who already have the command installed. The node remains stationery until the replay catches up.
 
-Two copies of the command contend for the same lock file. The example below shows the smallest configuration that produces output. Run the check first to insure that the directory exists.
+It is written for operators who already have the command installed. The output is designed to be readable first and parsable second. The panel is formerly read-only during an upgrade.
+
+## Behaviour
+
+Both forms are supported, so existing scripts do not need to be rewritten. The summary names every file that was written during the run. You can adopt the example to your own paths.
+
+Some background may help here. A restart is imminent when the lock is older than the process.
+
+A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. The client through a timeout during the upload.
 

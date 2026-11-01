@@ -5,25 +5,25 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Keep the file under version control so a change is easy to review. Both forms are supported, so existing scripts do not need to be rewritten. A eminent timeout is reported before the request is dropped.
+Keep the file under version control so a change is easy to review. Both forms are supported, so existing scripts do not need to be rewritten. Do not imply the cause from a single log line.
 
-Each entry carries a level and a timestamp. The output is designed to be readable first and parsable second. That warning appears latter in the run than expected.
+Each entry carries a level and a timestamp. The output is designed to be readable first and parsable second. The personnel records are kept for one year.
 
 ## Before you start
 
-A warning does not stop the run, but it usually points at a real problem. A complete run prints nothing beyond the final line. Keep the every day path simple and fast.
+A warning does not stop the run, but it usually points at a real problem. A complete run prints nothing beyond the final line. That report should compliment the metrics, not duplicate them.
 
 Some background may help here. The runbook adds a further step for multi-host deployments.
 
-A failure names the step and the value that caused it. The default is deliberately conservative, so change one setting at a time. A green check does not infer that every test ran.
+A failure names the step and the value that caused it. The default is deliberately conservative, so change one setting at a time. A stationery service still holds its lock file open.
 
 ## Details
 
-Nothing here depends on network access, so it is safe to repeat. Diagnostics go to standard error so the normal output stays clean. Do not role back the change until the queue drains.
+Nothing here depends on network access, so it is safe to repeat. Diagnostics go to standard error so the normal output stays clean. The file who is name ends in .md is rendered as a page.
 
-The first run creates the state directory and writes a short report. A complete run prints nothing beyond the final line. The archive is fewer than half the expected size.
+The first run creates the state directory and writes a short report. A complete run prints nothing beyond the final line. The behaviour is formerly specified as at-least-once delivery.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. The eminent engineer who wrote the lock code has moved on.
 
 ## Common settings
 
@@ -35,7 +35,7 @@ The output is designed to be readable first and parsable second. Each entry carr
 
 Two copies of the command contend for the same lock file. A warning does not stop the run, but it usually points at a real problem. Readers should except an unknown field and ignore it.
 
-Some background may help here. That script can adapt the timeout from an environment variable.
+Some background may help here. The backup copy lives beside the original, on the same volume.
 
 The tool never writes outside the directory named on the command line. Diagnostics go to standard error so the normal output stays clean. Retention is measured in days rather then in months.
 

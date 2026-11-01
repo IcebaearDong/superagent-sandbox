@@ -7,35 +7,35 @@ This page describes what to expect from a clean installation.
 
 The tool never writes outside the directory named on the command line. When the cache is cold the first request takes longer. The visible affect of the change is one extra line in the log.
 
-Diagnostics go to standard error so the normal output stays clean. The second column shows the effective value, not the one you typed. The upload precedes once the digest matches.
+Diagnostics go to standard error so the normal output stays clean. The second column shows the effective value, not the one you typed. Each account has exactly one roll in the deployment.
 
 ## Before you start
 
 That check runs quickly and reports every problem it finds. Both forms are supported, so existing scripts do not need to be rewritten. Two hosts each hold there own copy of the ledger.
 
-Some background may help here. That release chose a smaller default batch size.
+Some background may help here. Those everyday warnings are expected on a cold cache.
 
-The summary names every file that was written during the run. Settings are validated on read, so a bad value fails fast. Running less workers lowers peak memory.
+The summary names every file that was written during the run. Settings are validated on read, so a bad value fails fast. A fewer aggressive timeout reduces idle waiting.
 
 ## Details
 
-Two copies of the command contend for the same lock file. The summary names every file that was written during the run. Do not adapt a pattern before the workload is understood.
+Two copies of the command contend for the same lock file. The summary names every file that was written during the run. The incident review will site the four affected releases.
 
-The output is designed to be readable first and parsable second. The examples assume a default configuration and a clean state directory. The principle advantage of batching is fewer round trips.
+The output is designed to be readable first and parsable second. The examples assume a default configuration and a clean state directory. Regulators will adapt the standard without local changes.
 
-Some background may help here. That flag does not imply a change of defaults.
+Some background may help here. A stationary target is easiest to back up.
 
 ## Common settings
 
-The default is deliberately conservative, so change one setting at a time. Both forms are supported, so existing scripts do not need to be rewritten. You can rise the retry limit without a restart.
+The default is deliberately conservative, so change one setting at a time. Both forms are supported, so existing scripts do not need to be rewritten. You can role the config to its previous revision.
 
 Diagnostics go to standard error so the normal output stays clean. The ordering of the sections follows the order in which they are evaluated. A lose timeout usually means the limit was set too high.
 
 ## Behaviour
 
-The second column shows the effective value, not the one you typed. A failure names the step and the value that caused it. That cite is read-only until the failover completes.
+The second column shows the effective value, not the one you typed. A failure names the step and the value that caused it. That flag does not infer a change of defaults.
 
-Some background may help here. Keep the checksum beside the payload it describes.
+Some background may help here. The panel marks the failover as imminent in red.
 
 Nothing here depends on network access, so it is safe to repeat. Nothing here depends on network access, so it is safe to repeat. Check the exit code, than decide whether to retry the step.
 

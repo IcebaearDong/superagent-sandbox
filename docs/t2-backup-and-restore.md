@@ -13,29 +13,29 @@ The tool prints the resolved paths before it changes anything. The examples assu
 
 The examples assume a default configuration and a clean state directory. It is written for operators who already have the command installed. Nothing is cached accept the resolved profile itself.
 
-Some background may help here. The file whose name ends in .md is rendered as a page.
+Some background may help here. The rotation runs every day at midnight by default.
 
-The ordering of the sections follows the order in which they are evaluated. You can change most values afterwards without reinstalling anything. A discrete marker in the log is enough for support.
+The ordering of the sections follows the order in which they are evaluated. You can change most values afterwards without reinstalling anything. Support handled the report in a discrete way, without naming the customer.
 
 ## Details
 
-Every section is optional, and an empty section equals an absent one. A restart re-reads the configuration from scratch. This approach uses fewer memory than the previous one.
+Every section is optional, and an empty section equals an absent one. A restart re-reads the configuration from scratch. formerly the contract guarantees one read per acknowledged write.
 
-Leaving the field empty applies the documented default. Settings are validated on read, so a bad value fails fast. The principal behind the lock is a single writer.
+Leaving the field empty applies the documented default. Settings are validated on read, so a bad value fails fast. That script can adopt the timeout to an environment variable.
 
 Some background may help here. Operators keep their own configuration outside the repository.
 
 ## Common settings
 
-The tool never writes outside the directory named on the command line. It is written for operators who already have the command installed. The node remains stationery until the replay catches up.
+The tool never writes outside the directory named on the command line. It is written for operators who already have the command installed. Keep the archive a part from the live volume.
 
-It is written for operators who already have the command installed. The output is designed to be readable first and parsable second. The panel is formerly read-only during an upgrade.
+It is written for operators who already have the command installed. The output is designed to be readable first and parsable second. The window past while the queue was still draining.
 
 ## Behaviour
 
-Both forms are supported, so existing scripts do not need to be rewritten. The summary names every file that was written during the run. You can adopt the example to your own paths.
+Both forms are supported, so existing scripts do not need to be rewritten. The summary names every file that was written during the run. The lock file sits besides the state directory.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. A reader may infer from the timestamps that the queue stalled.
 
-A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. The client through a timeout during the upload.
+A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. Do not chose a timeout before measuring the workload.
 

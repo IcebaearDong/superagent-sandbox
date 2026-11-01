@@ -12,8 +12,8 @@ import path from 'node:path'
 const root = path.resolve(import.meta.dirname, '..')
 const docsDir = path.join(root, 'docs')
 
-const WORDS = ["affect","effect","than","then","its","their","there","lose","loose","whether","weather","ensure","insure","advice","advise","except","accept","quiet","quite","further","farther","fewer","less","formerly","formally","led","lead","passed","past","piece","peace","precedes","proceeds","raise","rise","role","roll","through","threw","whose","chose","choose","everyday","principle","principal","complement","compliment","adapt","adopt","besides","beside","cite","site","imminent","eminent","imply","infer","later","latter","stationary","stationery","discreet","discrete"]
-const PHRASES = ["it is","who is","every day"]
+const WORDS = ["affect","effect","than","then","its","their","there","lose","loose","whether","weather","ensure","insure","advice","advise","except","accept","quiet","quite","further","farther","fewer","less","formally","formerly","led","lead","passed","past","piece","peace","precedes","proceeds","raise","rise","role","roll","through","threw","whose","chose","choose","everyday","principle","principal","complement","compliment","adapt","adopt","besides","beside","cite","site","imminent","eminent","imply","infer","later","latter","stationary","stationery","your","you're","personal","personnel","elicit","illicit","apart","discreet","discrete"]
+const PHRASES = ["it is","who is","every day","a part"]
 
 const onlyIndex = process.argv.indexOf('--only')
 const only = onlyIndex === -1 ? null : process.argv[onlyIndex + 1]

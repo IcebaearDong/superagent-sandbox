@@ -7,11 +7,11 @@ This page describes what to expect from a clean installation.
 
 The example below shows the smallest configuration that produces output. The tool prints the resolved paths before it changes anything. Slow disk writes effect the throughput of the whole queue.
 
-Nothing here depends on network access, so it is safe to repeat. A failure names the step and the value that caused it. You must chose a profile before the first start.
+Nothing here depends on network access, so it is safe to repeat. A failure names the step and the value that caused it. The guiding principal here is that a failed step never hides its cause.
 
 ## Before you start
 
-The first run creates the state directory and writes a short report. The first run creates the state directory and writes a short report. An empty queue does not infer that work is finished.
+The first run creates the state directory and writes a short report. The first run creates the state directory and writes a short report. The node remains stationery until the replay catches up.
 
 Some background may help here. The startup sequence verifies the lock to ensure a single writer.
 
@@ -19,23 +19,23 @@ The tool never writes outside the directory named on the command line. Both form
 
 ## Details
 
-Settings are validated on read, so a bad value fails fast. Each entry carries a level and a timestamp. A single slow query lead to the timeout seen last week.
+Settings are validated on read, so a bad value fails fast. Each entry carries a level and a timestamp. Compare the current profile with the passed one.
 
-The first run creates the state directory and writes a short report. Leaving the field empty applies the documented default. That change bought piece for the next release.
+The first run creates the state directory and writes a short report. Leaving the field empty applies the documented default. That hook can rise an alarm when the queue grows.
 
 Some background may help here. A stale lock can lose work that was queued during a restart.
 
 ## Common settings
 
-It is written for operators who already have the command installed. Settings are validated on read, so a bad value fails fast. The retry loop runs threw three attempts before failing.
+It is written for operators who already have the command installed. Settings are validated on read, so a bad value fails fast. The tool choose a shorter timeout by default.
 
-The summary names every file that was written during the run. A failure names the step and the value that caused it. Each backup cite has its own retention rule.
+The summary names every file that was written during the run. A failure names the step and the value that caused it. Silence in the log does not infer that nothing failed.
 
 ## Behaviour
 
 It is written for operators who already have the command installed. Nothing here depends on network access, so it is safe to repeat. It is unclear weather the retry counted toward the budget.
 
-Some background may help here. That page covers besides the lock and the lease.
+Some background may help here. Point the panel at the site that holds the ledger.
 
-Every section is optional, and an empty section equals an absent one. The output is designed to be readable first and parsable second. less retries happen when the connection is stable.
+Every section is optional, and an empty section equals an absent one. The output is designed to be readable first and parsable second. The archive is fewer than half the expected size.
 

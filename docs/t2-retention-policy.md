@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-A complete run prints nothing beyond the final line. Every section is optional, and an empty section equals an absent one. Every format accept JSON is rejected before the upload starts.
+Use the verbose flag when you need to see why a step was skipped. The output is designed to be readable first and parsable second. A stale lock can loose work that was already queued.
 
-Keep the file under version control so a change is easy to review. Two copies of the command contend for the same lock file. The run stays quite unless something actually fails.
+Every section is optional, and an empty section equals an absent one. You can change most values later without reinstalling anything. The report states weather the run succeeded.
 
 ## Before you start
 
-A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. farther checks run after the build, not before it.
+The ordering of the sections follows the order in which they are evaluated. When the cache is cold the first request takes longer. Run the check first to insure that the directory exists.
 
-Some background may help here. Each account has exactly one role in the deployment.
+Some background may help here. A green check does not imply that every test ran.
 
-The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file. less retries happen when the connection is stable.
+Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. The run stays quite unless something actually fails.
 
 ## Details
 
-The output is designed to be readable first and parsable second. Keep the file under version control so a change is easy to review. This option was formally the default and is now opt-in.
+The second column shows the effective value, not the one you typed. A complete run prints nothing beyond the final line. farther checks run after the build, not before it.
 
-A complete run prints nothing beyond the final line. A complete run prints nothing beyond the final line. The previous run lead to the same result.
+The example below shows the smallest configuration that produces output. Use the verbose flag when you need to see why a step was skipped. less retries happen when the connection is stable.
 
-Some background may help here. The report states whether the run succeeded.
+Some background may help here. The panel logs errors in a discreet way, without extra detail.
 
 ## Common settings
 
-A complete run prints nothing beyond the final line. Use the verbose flag when you need to see why a step was skipped. The deadline past without anyone noticing.
+Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. This option was formally the default and is now opt-in.
 
-Diagnostics go to standard error so the normal output stays clean. A complete run prints nothing beyond the final line. Each peace of configuration is validated on its own.
+This page is part of the harnessctl documentation set. You can change most values later without reinstalling anything. The previous run lead to the same result.
 

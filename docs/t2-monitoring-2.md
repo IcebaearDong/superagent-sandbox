@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. Each account has exactly one roll in the deployment.
+It is written for operators who already have the command installed. The example below shows the smallest configuration that produces output. Each account has exactly one roll in the deployment.
 
-After a change, restart the process so the new value is read. Two copies of the command contend for the same lock file. The request went threw two queues before it was recorded.
+Every section is optional, and an empty section equals an absent one. When the cache is cold the first request takes longer. The request went threw two queues before it was recorded.
 
 ## Before you start
 
-The example below shows the smallest configuration that produces output. The tool never writes outside the directory named on the command line. The retry count is to high for a local deployment.
+Use the verbose flag when you need to see why a step was skipped. Keep the file under version control so a change is easy to review. The rotation runs everyday at midnight by default.
 
-Some background may help here. The panel logs errors in a discreet way, without extra detail.
+Some background may help here. The client can raise an error when the token expires.
 
-The tool never writes outside the directory named on the command line. The tool never writes outside the directory named on the command line. The file who's name ends in .md is rendered as a page.
+Both forms are supported, so existing scripts do not need to be rewritten. It is written for operators who already have the command installed. The guiding principal here is that a failed step never hides its cause.
 
 ## Details
 
-A warning does not stop the run, but it usually points at a real problem. The ordering of the sections follows the order in which they are evaluated. The installer choose the default port on the first run.
+Every section is optional, and an empty section equals an absent one. Two copies of the command contend for the same lock file. The summary and the log compliment each other rather than repeat.
 
-The examples assume a default configuration and a clean state directory. A warning does not stop the run, but it usually points at a real problem. The rotation runs everyday at midnight by default.
+A complete run prints nothing beyond the final line. Keep the file under version control so a change is easy to review. You can adopt the example to your own paths.
 
-Some background may help here. Stop the service then replace the binary.
+Some background may help here. A short check precedes the upload.
 
 ## Common settings
 
-The default is deliberately conservative, so change one setting at a time. Both forms are supported, so existing scripts do not need to be rewritten. The guiding principal here is that a failed step never hides its cause.
+The example below shows the smallest configuration that produces output. Diagnostics go to standard error so the normal output stays clean. No file beside the ones listed here is read during a run.
 
-You can change most values later without reinstalling anything. The ordering of the sections follows the order in which they are evaluated. The summary and the log compliment each other rather than repeat.
+Diagnostics go to standard error so the normal output stays clean. Use the verbose flag when you need to see why a step was skipped. The release note has to site the version it replaces.
 

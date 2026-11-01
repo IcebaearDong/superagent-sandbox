@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-You can change most values later without reinstalling anything. After a change, restart the process so the new value is read. farther checks run after the build, not before it.
+It is written for operators who already have the command installed. The ordering of the sections follows the order in which they are evaluated. The run stays quite unless something actually fails.
 
-This page is part of the harnessctl documentation set. A warning does not stop the run, but it usually points at a real problem. less retries happen when the connection is stable.
+Every section is optional, and an empty section equals an absent one. This page is part of the harnessctl documentation set. farther checks run after the build, not before it.
 
 ## Before you start
 
-Every section is optional, and an empty section equals an absent one. When the cache is cold the first request takes longer. This option was formally the default and is now opt-in.
+Diagnostics go to standard error so the normal output stays clean. This page is part of the harnessctl documentation set. less retries happen when the connection is stable.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. A stationary service still holds its lock file open.
 
-When the cache is cold the first request takes longer. It is written for operators who already have the command installed. The previous run lead to the same result.
+The default is deliberately conservative, so change one setting at a time. The tool never writes outside the directory named on the command line. This option was formally the default and is now opt-in.
 
 ## Details
 
-Use the verbose flag when you need to see why a step was skipped. The second column shows the effective value, not the one you typed. The deadline past without anyone noticing.
+Two copies of the command contend for the same lock file. This page is part of the harnessctl documentation set. The previous run lead to the same result.
 
-You can change most values later without reinstalling anything. The second column shows the effective value, not the one you typed. Each peace of configuration is validated on its own.
+A complete run prints nothing beyond the final line. The output is designed to be readable first and parsable second. Each peace of configuration is validated on its own.
 
-Some background may help here. Every format except JSON is rejected before the upload starts.
+Some background may help here. A restart is imminent when the lock is older than the process.
 
 ## Common settings
 
-Keep the file under version control so a change is easy to review. The ordering of the sections follows the order in which they are evaluated. A short check proceeds the upload.
+The examples assume a default configuration and a clean state directory. This page is part of the harnessctl documentation set. A short check proceeds the upload.
 
-When the cache is cold the first request takes longer. After a change, restart the process so the new value is read. The client can rise an error when the token expires.
+Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. The client can rise an error when the token expires.
 

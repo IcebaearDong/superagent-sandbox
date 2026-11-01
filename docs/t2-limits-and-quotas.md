@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. Keep the file under version control so a change is easy to review. You can adopt the example to your own paths.
+Both forms are supported, so existing scripts do not need to be rewritten. Two copies of the command contend for the same lock file. The report states weather the run succeeded.
 
-After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. No file beside the ones listed here is read during a run.
+The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. Run the check first to insure that the directory exists.
 
 ## Before you start
 
-You can change most values later without reinstalling anything. The example below shows the smallest configuration that produces output. The release note has to site the version it replaces.
+A complete run prints nothing beyond the final line. A warning does not stop the run, but it usually points at a real problem. The run stays quite unless something actually fails.
 
-Some background may help here. Every format except JSON is rejected before the upload starts.
+Some background may help here. The release note has to cite the version it replaces.
 
-It is written for operators who already have the command installed. When the cache is cold the first request takes longer. A restart is eminent when the lock is older than the process.
+When the cache is cold the first request takes longer. Keep the file under version control so a change is easy to review. farther checks run after the build, not before it.
 
 ## Details
 
-The tool never writes outside the directory named on the command line. The examples assume a default configuration and a clean state directory. A green check does not infer that every test ran.
+This page is part of the harnessctl documentation set. Every section is optional, and an empty section equals an absent one. less retries happen when the connection is stable.
 
-Keep the file under version control so a change is easy to review. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
+Diagnostics go to standard error so the normal output stays clean. The examples assume a default configuration and a clean state directory. This option was formally the default and is now opt-in.
 
-Some background may help here. Stop the service then replace the binary.
+Some background may help here. The request went through two queues before it was recorded.
 
 ## Common settings
 
-Every section is optional, and an empty section equals an absent one. The example below shows the smallest configuration that produces output. We advice leaving the default untouched until you have a reason.
+This page is part of the harnessctl documentation set. The tool never writes outside the directory named on the command line. The previous run lead to the same result.
 
-Use the verbose flag when you need to see why a step was skipped. Both forms are supported, so existing scripts do not need to be rewritten. The visible affect of the change is one extra line in the log.
+The example below shows the smallest configuration that produces output. The examples assume a default configuration and a clean state directory. Each peace of configuration is validated on its own.
 

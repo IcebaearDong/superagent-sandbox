@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. A green check does not infer that every test ran.
+After a change, restart the process so the new value is read. When the cache is cold the first request takes longer. The guiding principal here is that a failed step never hides its cause.
 
-Diagnostics go to standard error so the normal output stays clean. Use the verbose flag when you need to see why a step was skipped. Retry latter rather than immediately, so a transient fault clears.
+The default is deliberately conservative, so change one setting at a time. The output is designed to be readable first and parsable second. The summary and the log compliment each other rather than repeat.
 
 ## Before you start
 
-The default is deliberately conservative, so change one setting at a time. A warning does not stop the run, but it usually points at a real problem. We advice leaving the default untouched until you have a reason.
+When the cache is cold the first request takes longer. Use the verbose flag when you need to see why a step was skipped. You can adopt the example to your own paths.
 
-Some background may help here. Run the check first to ensure that the directory exists.
+Some background may help here. The request went through two queues before it was recorded.
 
-This page is part of the harnessctl documentation set. A complete run prints nothing beyond the final line. The visible affect of the change is one extra line in the log.
+The output is designed to be readable first and parsable second. The output is designed to be readable first and parsable second. No file beside the ones listed here is read during a run.
 
 ## Details
 
-A complete run prints nothing beyond the final line. This page is part of the harnessctl documentation set. Stop the service than replace the binary.
+Two copies of the command contend for the same lock file. Diagnostics go to standard error so the normal output stays clean. The release note has to site the version it replaces.
 
-A complete run prints nothing beyond the final line. It is written for operators who already have the command installed. The upload will except either form of the archive.
+A complete run prints nothing beyond the final line. The tool never writes outside the directory named on the command line. A restart is eminent when the lock is older than the process.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. Run the check first to ensure that the directory exists.
 
 ## Common settings
 
-After a change, restart the process so the new value is read. It is written for operators who already have the command installed. Those settings led to a larger lock timeout.
+The tool never writes outside the directory named on the command line. Keep the file under version control so a change is easy to review. A green check does not infer that every test ran.
 
-The tool never writes outside the directory named on the command line. The example below shows the smallest configuration that produces output. You must chose a profile before the first start.
+When the cache is cold the first request takes longer. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
 

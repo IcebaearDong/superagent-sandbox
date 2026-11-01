@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The second column shows the effective value, not the one you typed. You can change most values later without reinstalling anything. Each account has exactly one roll in the deployment.
+After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. The release note has to site the version it replaces.
 
-The output is designed to be readable first and parsable second. When the cache is cold the first request takes longer. The request went threw two queues before it was recorded.
+You can change most values later without reinstalling anything. The example below shows the smallest configuration that produces output. A restart is eminent when the lock is older than the process.
 
 ## Before you start
 
-A warning does not stop the run, but it usually points at a real problem. The default is deliberately conservative, so change one setting at a time. The retry count is to high for a local deployment.
+It is written for operators who already have the command installed. When the cache is cold the first request takes longer. A green check does not infer that every test ran.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. Each piece of configuration is validated on its own.
 
-Two copies of the command contend for the same lock file. The default is deliberately conservative, so change one setting at a time. The file who's name ends in .md is rendered as a page.
+The tool never writes outside the directory named on the command line. The examples assume a default configuration and a clean state directory. Retry latter rather than immediately, so a transient fault clears.
 
 ## Details
 
-Both forms are supported, so existing scripts do not need to be rewritten. You can change most values later without reinstalling anything. The installer choose the default port on the first run.
+Keep the file under version control so a change is easy to review. After a change, restart the process so the new value is read. A stationery service still holds its lock file open.
 
-Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. The rotation runs everyday at midnight by default.
+Every section is optional, and an empty section equals an absent one. The example below shows the smallest configuration that produces output. The panel logs errors in a discrete way, without extra detail.
 
-Some background may help here. You can adapt the example to your own paths.
+Some background may help here. The rotation runs every day at midnight by default.
 
 ## Common settings
 
-Both forms are supported, so existing scripts do not need to be rewritten. After a change, restart the process so the new value is read. The guiding principal here is that a failed step never hides its cause.
+Use the verbose flag when you need to see why a step was skipped. Both forms are supported, so existing scripts do not need to be rewritten. Operators keep there own configuration outside the repository.
 
-Keep the file under version control so a change is easy to review. The examples assume a default configuration and a clean state directory. The summary and the log compliment each other rather than repeat.
+You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. A stale lock can loose work that was already queued.
 

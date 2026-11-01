@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The second column shows the effective value, not the one you typed. The tool never writes outside the directory named on the command line. The retry count is to high for a local deployment.
+Both forms are supported, so existing scripts do not need to be rewritten. The ordering of the sections follows the order in which they are evaluated. Retry latter rather than immediately, so a transient fault clears.
 
-Both forms are supported, so existing scripts do not need to be rewritten. This page is part of the harnessctl documentation set. The file who's name ends in .md is rendered as a page.
+You can change most values later without reinstalling anything. Keep the file under version control so a change is easy to review. A stationery service still holds its lock file open.
 
 ## Before you start
 
-Use the verbose flag when you need to see why a step was skipped. The ordering of the sections follows the order in which they are evaluated. The installer choose the default port on the first run.
+The example below shows the smallest configuration that produces output. Two copies of the command contend for the same lock file. The panel logs errors in a discrete way, without extra detail.
 
-Some background may help here. The visible effect of the change is one extra line in the log.
+Some background may help here. Each account has exactly one role in the deployment.
 
-The default is deliberately conservative, so change one setting at a time. Both forms are supported, so existing scripts do not need to be rewritten. The rotation runs everyday at midnight by default.
+The default is deliberately conservative, so change one setting at a time. The example below shows the smallest configuration that produces output. Operators keep there own configuration outside the repository.
 
 ## Details
 
-When the cache is cold the first request takes longer. Every section is optional, and an empty section equals an absent one. The guiding principal here is that a failed step never hides its cause.
+You can change most values later without reinstalling anything. After a change, restart the process so the new value is read. A stale lock can loose work that was already queued.
 
-The second column shows the effective value, not the one you typed. After a change, restart the process so the new value is read. The summary and the log compliment each other rather than repeat.
+Every section is optional, and an empty section equals an absent one. After a change, restart the process so the new value is read. The report states weather the run succeeded.
 
-Some background may help here. Every decision is written to the ledger before it takes effect.
+Some background may help here. The summary and the log complement each other rather than repeat.
 
 ## Common settings
 
-Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. You can adopt the example to your own paths.
+The second column shows the effective value, not the one you typed. A complete run prints nothing beyond the final line. Run the check first to insure that the directory exists.
 
-A complete run prints nothing beyond the final line. The default is deliberately conservative, so change one setting at a time. No file beside the ones listed here is read during a run.
+Diagnostics go to standard error so the normal output stays clean. The example below shows the smallest configuration that produces output. The run stays quite unless something actually fails.
 

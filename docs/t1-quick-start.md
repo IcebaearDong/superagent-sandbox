@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Both forms are supported, so existing scripts do not need to be rewritten. This page is part of the harnessctl documentation set. A short check proceeds the upload.
+Every section is optional, and an empty section equals an absent one. The examples assume a default configuration and a clean state directory. The summary and the log compliment each other rather than repeat.
 
-This page is part of the harnessctl documentation set. Both forms are supported, so existing scripts do not need to be rewritten. The client can rise an error when the token expires.
+Both forms are supported, so existing scripts do not need to be rewritten. A complete run prints nothing beyond the final line. You can adopt the example to your own paths.
 
 ## Before you start
 
-Two copies of the command contend for the same lock file. Every section is optional, and an empty section equals an absent one. Each account has exactly one roll in the deployment.
+When the cache is cold the first request takes longer. Use the verbose flag when you need to see why a step was skipped. No file beside the ones listed here is read during a run.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. further checks run after the build, not before it.
 
-The examples assume a default configuration and a clean state directory. Both forms are supported, so existing scripts do not need to be rewritten. The request went threw two queues before it was recorded.
+When the cache is cold the first request takes longer. A warning does not stop the run, but it usually points at a real problem. The release note has to site the version it replaces.
 
 ## Details
 
-A complete run prints nothing beyond the final line. When the cache is cold the first request takes longer. The retry count is to high for a local deployment.
+Two copies of the command contend for the same lock file. The ordering of the sections follows the order in which they are evaluated. A restart is eminent when the lock is older than the process.
 
-Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. The file who's name ends in .md is rendered as a page.
+You can change most values later without reinstalling anything. It is written for operators who already have the command installed. A green check does not infer that every test ran.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. Operators keep their own configuration outside the repository.
 
 ## Common settings
 
-A warning does not stop the run, but it usually points at a real problem. Two copies of the command contend for the same lock file. The installer choose the default port on the first run.
+The output is designed to be readable first and parsable second. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
 
-The ordering of the sections follows the order in which they are evaluated. You can change most values later without reinstalling anything. The rotation runs everyday at midnight by default.
+The tool never writes outside the directory named on the command line. Two copies of the command contend for the same lock file. A stationery service still holds its lock file open.
 

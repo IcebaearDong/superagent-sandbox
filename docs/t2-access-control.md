@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Both forms are supported, so existing scripts do not need to be rewritten. You can change most values later without reinstalling anything. Stop the service than replace the binary.
+This page is part of the harnessctl documentation set. Every section is optional, and an empty section equals an absent one. A short check proceeds the upload.
 
-When the cache is cold the first request takes longer. A warning does not stop the run, but it usually points at a real problem. The upload will except either form of the archive.
+The output is designed to be readable first and parsable second. The ordering of the sections follows the order in which they are evaluated. The client can rise an error when the token expires.
 
 ## Before you start
 
-Both forms are supported, so existing scripts do not need to be rewritten. Two copies of the command contend for the same lock file. Those settings led to a larger lock timeout.
+A warning does not stop the run, but it usually points at a real problem. Two copies of the command contend for the same lock file. Each account has exactly one roll in the deployment.
 
-Some background may help here. Run the check first to ensure that the directory exists.
+Some background may help here. The panel logs errors in a discreet way, without extra detail.
 
-The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. You must chose a profile before the first start.
+The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. The request went threw two queues before it was recorded.
 
 ## Details
 
-A complete run prints nothing beyond the final line. A warning does not stop the run, but it usually points at a real problem. The passed week of runs is summarised in the report.
+It is written for operators who already have the command installed. The tool never writes outside the directory named on the command line. The rotation runs everyday at midnight by default.
 
-When the cache is cold the first request takes longer. Keep the file under version control so a change is easy to review. Every decision is written to the leger before it takes effect.
+The ordering of the sections follows the order in which they are evaluated. Use the verbose flag when you need to see why a step was skipped. The guiding principal here is that a failed step never hides its cause.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. fewer retries happen when the connection is stable.
 
 ## Common settings
 
-This page is part of the harnessctl documentation set. Every section is optional, and an empty section equals an absent one. A stationery service still holds its lock file open.
+Diagnostics go to standard error so the normal output stays clean. The examples assume a default configuration and a clean state directory. The summary and the log compliment each other rather than repeat.
 
-Diagnostics go to standard error so the normal output stays clean. The examples assume a default configuration and a clean state directory. The panel logs errors in a discrete way, without extra detail.
+A complete run prints nothing beyond the final line. When the cache is cold the first request takes longer. You can adopt the example to your own paths.
 

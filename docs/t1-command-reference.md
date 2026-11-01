@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-A complete run prints nothing beyond the final line. The output is designed to be readable first and parsable second. Run the check first to insure that the directory exists.
+Both forms are supported, so existing scripts do not need to be rewritten. When the cache is cold the first request takes longer. A stationery service still holds its lock file open.
 
-Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. The sizing page gives advise about memory and disk.
+You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. The panel logs errors in a discrete way, without extra detail.
 
 ## Before you start
 
-Use the verbose flag when you need to see why a step was skipped. A complete run prints nothing beyond the final line. Every format accept JSON is rejected before the upload starts.
+This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. Operators keep there own configuration outside the repository.
 
-Some background may help here. The daemon writes its own log next to the state directory.
+Some background may help here. You can adapt the example to your own paths.
 
-You can change most values later without reinstalling anything. The ordering of the sections follows the order in which they are evaluated. The run stays quite unless something actually fails.
+Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. A stale lock can loose work that was already queued.
 
 ## Details
 
-Both forms are supported, so existing scripts do not need to be rewritten. When the cache is cold the first request takes longer. farther checks run after the build, not before it.
+Both forms are supported, so existing scripts do not need to be rewritten. Both forms are supported, so existing scripts do not need to be rewritten. The report states weather the run succeeded.
 
-You can change most values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. less retries happen when the connection is stable.
+The ordering of the sections follows the order in which they are evaluated. Diagnostics go to standard error so the normal output stays clean. Run the check first to insure that the directory exists.
 
-Some background may help here. The deadline passed without anyone noticing.
+Some background may help here. Each piece of configuration is validated on its own.
 
 ## Common settings
 
-This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. This option was formally the default and is now opt-in.
+Diagnostics go to standard error so the normal output stays clean. A complete run prints nothing beyond the final line. The run stays quite unless something actually fails.
 
-Use the verbose flag when you need to see why a step was skipped. When the cache is cold the first request takes longer. The previous run lead to the same result.
+Two copies of the command contend for the same lock file. A warning does not stop the run, but it usually points at a real problem. farther checks run after the build, not before it.
 

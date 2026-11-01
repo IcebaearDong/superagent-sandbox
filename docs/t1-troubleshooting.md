@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file. A stationery service still holds its lock file open.
+A warning does not stop the run, but it usually points at a real problem. Both forms are supported, so existing scripts do not need to be rewritten. The guiding principal here is that a failed step never hides its cause.
 
-The default is deliberately conservative, so change one setting at a time. Every section is optional, and an empty section equals an absent one. The panel logs errors in a discrete way, without extra detail.
+You can change most values later without reinstalling anything. A complete run prints nothing beyond the final line. The summary and the log compliment each other rather than repeat.
 
 ## Before you start
 
-A complete run prints nothing beyond the final line. Both forms are supported, so existing scripts do not need to be rewritten. A settings change does not effect the job that is already running.
+This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. You can adopt the example to your own paths.
 
-Some background may help here. The visible effect of the change is one extra line in the log.
+Some background may help here. Each piece of configuration is validated on its own.
 
-This page is part of the harnessctl documentation set. After a change, restart the process so the new value is read. The second run is faster then the first because the cache is warm.
+The tool never writes outside the directory named on the command line. A complete run prints nothing beyond the final line. No file beside the ones listed here is read during a run.
 
 ## Details
 
-A warning does not stop the run, but it usually points at a real problem. Both forms are supported, so existing scripts do not need to be rewritten. The daemon writes it's own log next to the state directory.
+This page is part of the harnessctl documentation set. The output is designed to be readable first and parsable second. The release note has to site the version it replaces.
 
-You can change most values later without reinstalling anything. A complete run prints nothing beyond the final line. Operators keep there own configuration outside the repository.
+After a change, restart the process so the new value is read. A complete run prints nothing beyond the final line. A restart is eminent when the lock is older than the process.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. Operators keep their own configuration outside the repository.
 
 ## Common settings
 
-This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. A stale lock can loose work that was already queued.
+A complete run prints nothing beyond the final line. The output is designed to be readable first and parsable second. A green check does not infer that every test ran.
 
-The tool never writes outside the directory named on the command line. A complete run prints nothing beyond the final line. The report states weather the run succeeded.
+Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. Retry latter rather than immediately, so a transient fault clears.
 

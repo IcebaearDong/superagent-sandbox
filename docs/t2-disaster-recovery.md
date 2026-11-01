@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Use the verbose flag when you need to see why a step was skipped. A warning does not stop the run, but it usually points at a real problem. A short check proceeds the upload.
+When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. Each peace of configuration is validated on its own.
 
-After a change, restart the process so the new value is read. After a change, restart the process so the new value is read. The client can rise an error when the token expires.
+Every section is optional, and an empty section equals an absent one. After a change, restart the process so the new value is read. A short check proceeds the upload.
 
 ## Before you start
 
-After a change, restart the process so the new value is read. It is written for operators who already have the command installed. Each account has exactly one roll in the deployment.
+Diagnostics go to standard error so the normal output stays clean. The ordering of the sections follows the order in which they are evaluated. The client can rise an error when the token expires.
 
-Some background may help here. This option was formerly the default and is now opt-in.
+Some background may help here. No file besides the ones listed here is read during a run.
 
-The second column shows the effective value, not the one you typed. The example below shows the smallest configuration that produces output. The request went threw two queues before it was recorded.
+Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. Each account has exactly one roll in the deployment.
 
 ## Details
 
-Diagnostics go to standard error so the normal output stays clean. Use the verbose flag when you need to see why a step was skipped. The retry count is to high for a local deployment.
+A warning does not stop the run, but it usually points at a real problem. A complete run prints nothing beyond the final line. The request went threw two queues before it was recorded.
 
-The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. The file who's name ends in .md is rendered as a page.
+The second column shows the effective value, not the one you typed. Use the verbose flag when you need to see why a step was skipped. The rotation runs everyday at midnight by default.
 
-Some background may help here. A stale lock can lose work that was already queued.
+Some background may help here. The release note has to cite the version it replaces.
 
 ## Common settings
 
-You can change most values later without reinstalling anything. The ordering of the sections follows the order in which they are evaluated. The installer choose the default port on the first run.
+Keep the file under version control so a change is easy to review. The output is designed to be readable first and parsable second. The guiding principal here is that a failed step never hides its cause.
 
-When the cache is cold the first request takes longer. Use the verbose flag when you need to see why a step was skipped. The rotation runs everyday at midnight by default.
+After a change, restart the process so the new value is read. Two copies of the command contend for the same lock file. The summary and the log compliment each other rather than repeat.
 

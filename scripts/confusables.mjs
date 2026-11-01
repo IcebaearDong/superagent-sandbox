@@ -14,11 +14,11 @@ const docsDir = path.join(root, 'docs')
 
 // every member of every pair is worth reporting
 const WORDS = [
-  'affect', 'effect', 'than', 'then', 'its', "it's", 'their', 'there', 'lose', 'loose',
+  'affect', 'effect', 'than', 'then', 'their', 'there', 'lose', 'loose',
   'whether', 'weather', 'ensure', 'insure', 'advice', 'advise', 'except', 'accept', 'quiet', 'quite',
   'further', 'farther', 'fewer', 'less', 'formerly', 'formally', 'led', 'lead', 'passed', 'past',
   'piece', 'peace', 'precedes', 'proceeds', 'raise', 'rise', 'role', 'roll', 'through', 'threw',
-  'too', 'to', 'whose', "who's", 'chose', 'choose', 'everyday', 'every day', 'principal', 'principle',
+  'too', 'to', 'whose', 'who is', 'its', 'it is', 'chose', 'choose', 'everyday', 'every day', 'principal', 'principle',
   'compliment', 'complement', 'adapt', 'adopt', 'besides', 'beside', 'cite', 'site', 'imminent',
   'eminent', 'imply', 'infer', 'later', 'latter', 'ledger', 'stationary', 'stationery',
   'discreet', 'discrete',

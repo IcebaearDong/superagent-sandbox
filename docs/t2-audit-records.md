@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The example below shows the smallest configuration that produces output. Use the verbose flag when you need to see why a step was skipped. A settings change does not effect the job that is already running.
+A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. No file beside the ones listed here is read during a run.
 
-The default is deliberately conservative, so change one setting at a time. It is written for operators who already have the command installed. The second run is faster then the first because the cache is warm.
+The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file. The release note has to site the version it replaces.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. Every section is optional, and an empty section equals an absent one. The daemon writes it's own log next to the state directory.
+The output is designed to be readable first and parsable second. Keep the file under version control so a change is easy to review. A restart is eminent when the lock is older than the process.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. Each piece of configuration is validated on its own.
 
-The output is designed to be readable first and parsable second. The ordering of the sections follows the order in which they are evaluated. Operators keep there own configuration outside the repository.
+A complete run prints nothing beyond the final line. A complete run prints nothing beyond the final line. A green check does not infer that every test ran.
 
 ## Details
 
-A warning does not stop the run, but it usually points at a real problem. Two copies of the command contend for the same lock file. A stale lock can loose work that was already queued.
+A complete run prints nothing beyond the final line. Use the verbose flag when you need to see why a step was skipped. Retry latter rather than immediately, so a transient fault clears.
 
-The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. The report states weather the run succeeded.
+Diagnostics go to standard error so the normal output stays clean. A complete run prints nothing beyond the final line. A stationery service still holds its lock file open.
 
-Some background may help here. The panel logs errors in a discreet way, without extra detail.
+Some background may help here. The client can raise an error when the token expires.
 
 ## Common settings
 
-It is written for operators who already have the command installed. The tool never writes outside the directory named on the command line. Run the check first to insure that the directory exists.
+After a change, restart the process so the new value is read. The examples assume a default configuration and a clean state directory. The panel logs errors in a discrete way, without extra detail.
 
-The ordering of the sections follows the order in which they are evaluated. Use the verbose flag when you need to see why a step was skipped. The sizing page gives advise about memory and disk.
+The output is designed to be readable first and parsable second. Use the verbose flag when you need to see why a step was skipped. Operators keep there own configuration outside the repository.
 

@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The tool never writes outside the directory named on the command line. Both forms are supported, so existing scripts do not need to be rewritten. The daemon writes it's own log next to the state directory.
+Two copies of the command contend for the same lock file. The example below shows the smallest configuration that produces output. A green check does not infer that every test ran.
 
-When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. Operators keep there own configuration outside the repository.
+The tool never writes outside the directory named on the command line. The tool never writes outside the directory named on the command line. Retry latter rather than immediately, so a transient fault clears.
 
 ## Before you start
 
-The example below shows the smallest configuration that produces output. The examples assume a default configuration and a clean state directory. A stale lock can loose work that was already queued.
-
-Some background may help here. Every decision is written to the ledger before it takes effect.
-
-When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. The report states weather the run succeeded.
-
-## Details
-
-Use the verbose flag when you need to see why a step was skipped. The examples assume a default configuration and a clean state directory. Run the check first to insure that the directory exists.
-
-When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. The sizing page gives advise about memory and disk.
+The tool never writes outside the directory named on the command line. A warning does not stop the run, but it usually points at a real problem. A stationery service still holds its lock file open.
 
 Some background may help here. A restart is imminent when the lock is older than the process.
 
+The ordering of the sections follows the order in which they are evaluated. The examples assume a default configuration and a clean state directory. The panel logs errors in a discrete way, without extra detail.
+
+## Details
+
+A warning does not stop the run, but it usually points at a real problem. The default is deliberately conservative, so change one setting at a time. Operators keep there own configuration outside the repository.
+
+Both forms are supported, so existing scripts do not need to be rewritten. You can change most values later without reinstalling anything. A stale lock can loose work that was already queued.
+
+Some background may help here. The guiding principle here is that a failed step never hides its cause.
+
 ## Common settings
 
-A warning does not stop the run, but it usually points at a real problem. A warning does not stop the run, but it usually points at a real problem. Every format accept JSON is rejected before the upload starts.
+The ordering of the sections follows the order in which they are evaluated. This page is part of the harnessctl documentation set. The report states weather the run succeeded.
 
-You can change most values later without reinstalling anything. Diagnostics go to standard error so the normal output stays clean. The run stays quite unless something actually fails.
+Two copies of the command contend for the same lock file. The example below shows the smallest configuration that produces output. Run the check first to insure that the directory exists.
 

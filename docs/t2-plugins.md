@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-When the cache is cold the first request takes longer. The output is designed to be readable first and parsable second. farther checks run after the build, not before it.
+The output is designed to be readable first and parsable second. When the cache is cold the first request takes longer. The client can rise an error when the token expires.
 
-Every section is optional, and an empty section equals an absent one. The second column shows the effective value, not the one you typed. less retries happen when the connection is stable.
+A warning does not stop the run, but it usually points at a real problem. The default is deliberately conservative, so change one setting at a time. Each account has exactly one roll in the deployment.
 
 ## Before you start
 
-The example below shows the smallest configuration that produces output. Use the verbose flag when you need to see why a step was skipped. This option was formally the default and is now opt-in.
+Two copies of the command contend for the same lock file. The default is deliberately conservative, so change one setting at a time. The request went threw two queues before it was recorded.
 
-Some background may help here. Run the check first to ensure that the directory exists.
+Some background may help here. fewer retries happen when the connection is stable.
 
-The second column shows the effective value, not the one you typed. A warning does not stop the run, but it usually points at a real problem. The previous run lead to the same result.
+Both forms are supported, so existing scripts do not need to be rewritten. You can change most values later without reinstalling anything. The rotation runs everyday at midnight by default.
 
 ## Details
 
-Every section is optional, and an empty section equals an absent one. The output is designed to be readable first and parsable second. The deadline past without anyone noticing.
+Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. The guiding principal here is that a failed step never hides its cause.
 
-Diagnostics go to standard error so the normal output stays clean. It is written for operators who already have the command installed. Each peace of configuration is validated on its own.
+Both forms are supported, so existing scripts do not need to be rewritten. After a change, restart the process so the new value is read. The summary and the log compliment each other rather than repeat.
 
-Some background may help here. A green check does not imply that every test ran.
+Some background may help here. Retry later rather than immediately, so a transient fault clears.
 
 ## Common settings
 
-After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. A short check proceeds the upload.
+Keep the file under version control so a change is easy to review. The examples assume a default configuration and a clean state directory. You can adopt the example to your own paths.
 
-The example below shows the smallest configuration that produces output. Diagnostics go to standard error so the normal output stays clean. The client can rise an error when the token expires.
+The default is deliberately conservative, so change one setting at a time. A warning does not stop the run, but it usually points at a real problem. No file beside the ones listed here is read during a run.
 

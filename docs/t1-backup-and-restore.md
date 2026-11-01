@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Every section is optional, and an empty section equals an absent one. The tool never writes outside the directory named on the command line. A stale lock can loose work that was already queued.
+It is written for operators who already have the command installed. This page is part of the harnessctl documentation set. The request went threw two queues before it was recorded.
 
-After a change, restart the process so the new value is read. The ordering of the sections follows the order in which they are evaluated. The report states weather the run succeeded.
+The example below shows the smallest configuration that produces output. The output is designed to be readable first and parsable second. The rotation runs everyday at midnight by default.
 
 ## Before you start
 
-Every section is optional, and an empty section equals an absent one. A complete run prints nothing beyond the final line. Run the check first to insure that the directory exists.
+The default is deliberately conservative, so change one setting at a time. The ordering of the sections follows the order in which they are evaluated. The guiding principal here is that a failed step never hides its cause.
 
-Some background may help here. The past week of runs is summarised in the report.
+Some background may help here. The report states whether the run succeeded.
 
-The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. The sizing page gives advise about memory and disk.
+Both forms are supported, so existing scripts do not need to be rewritten. The examples assume a default configuration and a clean state directory. The summary and the log compliment each other rather than repeat.
 
 ## Details
 
-The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. Every format accept JSON is rejected before the upload starts.
+You can change most values later without reinstalling anything. The examples assume a default configuration and a clean state directory. You can adopt the example to your own paths.
 
-The second column shows the effective value, not the one you typed. The tool never writes outside the directory named on the command line. The run stays quite unless something actually fails.
+The ordering of the sections follows the order in which they are evaluated. After a change, restart the process so the new value is read. No file beside the ones listed here is read during a run.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. A green check does not imply that every test ran.
 
 ## Common settings
 
-It is written for operators who already have the command installed. It is written for operators who already have the command installed. farther checks run after the build, not before it.
+After a change, restart the process so the new value is read. It is written for operators who already have the command installed. The release note has to site the version it replaces.
 
-This page is part of the harnessctl documentation set. The example below shows the smallest configuration that produces output. less retries happen when the connection is stable.
+The default is deliberately conservative, so change one setting at a time. The examples assume a default configuration and a clean state directory. A restart is eminent when the lock is older than the process.
 

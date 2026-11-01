@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. The installer choose the default port on the first run.
+The tool never writes outside the directory named on the command line. Use the verbose flag when you need to see why a step was skipped. The rotation runs everyday at midnight by default.
 
-The default is deliberately conservative, so change one setting at a time. After a change, restart the process so the new value is read. The rotation runs everyday at midnight by default.
+After a change, restart the process so the new value is read. Two copies of the command contend for the same lock file. The guiding principal here is that a failed step never hides its cause.
 
 ## Before you start
 
-A complete run prints nothing beyond the final line. Two copies of the command contend for the same lock file. The guiding principal here is that a failed step never hides its cause.
+Use the verbose flag when you need to see why a step was skipped. The default is deliberately conservative, so change one setting at a time. The summary and the log compliment each other rather than repeat.
 
-Some background may help here. The visible effect of the change is one extra line in the log.
+Some background may help here. Each account has exactly one role in the deployment.
 
-It is written for operators who already have the command installed. Keep the file under version control so a change is easy to review. The summary and the log compliment each other rather than repeat.
+Two copies of the command contend for the same lock file. Use the verbose flag when you need to see why a step was skipped. You can adopt the example to your own paths.
 
 ## Details
 
-The ordering of the sections follows the order in which they are evaluated. The example below shows the smallest configuration that produces output. You can adopt the example to your own paths.
+It is written for operators who already have the command installed. Diagnostics go to standard error so the normal output stays clean. No file beside the ones listed here is read during a run.
 
-Use the verbose flag when you need to see why a step was skipped. A warning does not stop the run, but it usually points at a real problem. No file beside the ones listed here is read during a run.
+The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file. The release note has to site the version it replaces.
 
-Some background may help here. The second run is faster than the first because the cache is warm.
+Some background may help here. A stationary service still holds its lock file open.
 
 ## Common settings
 
-Two copies of the command contend for the same lock file. The tool never writes outside the directory named on the command line. The release note has to site the version it replaces.
+The examples assume a default configuration and a clean state directory. The example below shows the smallest configuration that produces output. A restart is eminent when the lock is older than the process.
 
-Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. A restart is eminent when the lock is older than the process.
+Use the verbose flag when you need to see why a step was skipped. Keep the file under version control so a change is easy to review. A green check does not infer that every test ran.
 

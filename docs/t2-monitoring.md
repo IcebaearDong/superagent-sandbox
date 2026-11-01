@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Every section is optional, and an empty section equals an absent one. Both forms are supported, so existing scripts do not need to be rewritten. The retry count is to high for a local deployment.
+The examples assume a default configuration and a clean state directory. The output is designed to be readable first and parsable second. The run stays quite unless something actually fails.
 
-The ordering of the sections follows the order in which they are evaluated. The tool never writes outside the directory named on the command line. The file who's name ends in .md is rendered as a page.
+It is written for operators who already have the command installed. Every section is optional, and an empty section equals an absent one. farther checks run after the build, not before it.
 
 ## Before you start
 
-When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. The installer choose the default port on the first run.
+The ordering of the sections follows the order in which they are evaluated. Two copies of the command contend for the same lock file. less retries happen when the connection is stable.
 
-Some background may help here. The visible effect of the change is one extra line in the log.
+Some background may help here. A green check does not imply that every test ran.
 
-A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. The rotation runs everyday at midnight by default.
+Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file. This option was formally the default and is now opt-in.
 
 ## Details
 
-The ordering of the sections follows the order in which they are evaluated. A complete run prints nothing beyond the final line. The guiding principal here is that a failed step never hides its cause.
+After a change, restart the process so the new value is read. When the cache is cold the first request takes longer. The previous run lead to the same result.
 
-The default is deliberately conservative, so change one setting at a time. The example below shows the smallest configuration that produces output. The summary and the log compliment each other rather than repeat.
+After a change, restart the process so the new value is read. Use the verbose flag when you need to see why a step was skipped. Each peace of configuration is validated on its own.
 
-Some background may help here. A restart is imminent when the lock is older than the process.
+Some background may help here. The rotation runs every day at midnight by default.
 
 ## Common settings
 
-After a change, restart the process so the new value is read. The second column shows the effective value, not the one you typed. You can adopt the example to your own paths.
+After a change, restart the process so the new value is read. When the cache is cold the first request takes longer. A short check proceeds the upload.
 
-Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. No file beside the ones listed here is read during a run.
+It is written for operators who already have the command installed. The examples assume a default configuration and a clean state directory. The client can rise an error when the token expires.
 

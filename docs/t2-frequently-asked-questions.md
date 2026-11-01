@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Every section is optional, and an empty section equals an absent one. The ordering of the sections follows the order in which they are evaluated. The release note has to site the version it replaces.
+It is written for operators who already have the command installed. Two copies of the command contend for the same lock file. Each account has exactly one roll in the deployment.
 
-Two copies of the command contend for the same lock file. Use the verbose flag when you need to see why a step was skipped. A restart is eminent when the lock is older than the process.
+Use the verbose flag when you need to see why a step was skipped. A complete run prints nothing beyond the final line. The request went threw two queues before it was recorded.
 
 ## Before you start
 
-Two copies of the command contend for the same lock file. After a change, restart the process so the new value is read. A green check does not infer that every test ran.
+After a change, restart the process so the new value is read. The second column shows the effective value, not the one you typed. The rotation runs everyday at midnight by default.
 
-Some background may help here. A stale lock can lose work that was already queued.
+Some background may help here. Retry later rather than immediately, so a transient fault clears.
 
-When the cache is cold the first request takes longer. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
+The second column shows the effective value, not the one you typed. Every section is optional, and an empty section equals an absent one. The guiding principal here is that a failed step never hides its cause.
 
 ## Details
 
-Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. We advice leaving the default untouched until you have a reason.
+Both forms are supported, so existing scripts do not need to be rewritten. A warning does not stop the run, but it usually points at a real problem. The summary and the log compliment each other rather than repeat.
 
-When the cache is cold the first request takes longer. It is written for operators who already have the command installed. The visible affect of the change is one extra line in the log.
+A complete run prints nothing beyond the final line. Both forms are supported, so existing scripts do not need to be rewritten. You can adopt the example to your own paths.
 
-Some background may help here. The deadline passed without anyone noticing.
+Some background may help here. A restart is imminent when the lock is older than the process.
 
 ## Common settings
 
-The examples assume a default configuration and a clean state directory. Every section is optional, and an empty section equals an absent one. Stop the service than replace the binary.
+Diagnostics go to standard error so the normal output stays clean. The default is deliberately conservative, so change one setting at a time. No file beside the ones listed here is read during a run.
 
-A warning does not stop the run, but it usually points at a real problem. A warning does not stop the run, but it usually points at a real problem. The upload will except either form of the archive.
+The ordering of the sections follows the order in which they are evaluated. Both forms are supported, so existing scripts do not need to be rewritten. The release note has to site the version it replaces.
 

@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. Use the verbose flag when you need to see why a step was skipped. A green check does not infer that every test ran.
+You can change most values later without reinstalling anything. After a change, restart the process so the new value is read. Retry latter rather than immediately, so a transient fault clears.
 
-It is written for operators who already have the command installed. Diagnostics go to standard error so the normal output stays clean. Retry latter rather than immediately, so a transient fault clears.
+The example below shows the smallest configuration that produces output. The tool never writes outside the directory named on the command line. A stationery service still holds its lock file open.
 
 ## Before you start
 
-The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file. We advice leaving the default untouched until you have a reason.
+Both forms are supported, so existing scripts do not need to be rewritten. A warning does not stop the run, but it usually points at a real problem. The panel logs errors in a discrete way, without extra detail.
 
-Some background may help here. The rotation runs every day at midnight by default.
+Some background may help here. The summary and the log complement each other rather than repeat.
 
-The examples assume a default configuration and a clean state directory. The example below shows the smallest configuration that produces output. The visible affect of the change is one extra line in the log.
+The tool never writes outside the directory named on the command line. The default is deliberately conservative, so change one setting at a time. Operators keep there own configuration outside the repository.
 
 ## Details
 
-Use the verbose flag when you need to see why a step was skipped. Keep the file under version control so a change is easy to review. Stop the service than replace the binary.
+When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. A stale lock can loose work that was already queued.
 
-Use the verbose flag when you need to see why a step was skipped. After a change, restart the process so the new value is read. The upload will except either form of the archive.
+Two copies of the command contend for the same lock file. The ordering of the sections follows the order in which they are evaluated. The report states weather the run succeeded.
 
-Some background may help here. No file besides the ones listed here is read during a run.
+Some background may help here. This option was formerly the default and is now opt-in.
 
 ## Common settings
 
-Diagnostics go to standard error so the normal output stays clean. You can change most values later without reinstalling anything. Those settings led to a larger lock timeout.
+After a change, restart the process so the new value is read. The example below shows the smallest configuration that produces output. Run the check first to insure that the directory exists.
 
-After a change, restart the process so the new value is read. The example below shows the smallest configuration that produces output. You must chose a profile before the first start.
+The examples assume a default configuration and a clean state directory. After a change, restart the process so the new value is read. The run stays quite unless something actually fails.
 

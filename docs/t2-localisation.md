@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. We advice leaving the default untouched until you have a reason.
+The second column shows the effective value, not the one you typed. Keep the file under version control so a change is easy to review. Operators keep there own configuration outside the repository.
 
-A warning does not stop the run, but it usually points at a real problem. A complete run prints nothing beyond the final line. The visible affect of the change is one extra line in the log.
+This page is part of the harnessctl documentation set. This page is part of the harnessctl documentation set. A stale lock can loose work that was already queued.
 
 ## Before you start
 
-The second column shows the effective value, not the one you typed. Use the verbose flag when you need to see why a step was skipped. Stop the service than replace the binary.
+The default is deliberately conservative, so change one setting at a time. When the cache is cold the first request takes longer. The report states weather the run succeeded.
 
-Some background may help here. This option was formerly the default and is now opt-in.
+Some background may help here. The guiding principle here is that a failed step never hides its cause.
 
-Keep the file under version control so a change is easy to review. The output is designed to be readable first and parsable second. The upload will except either form of the archive.
+The tool never writes outside the directory named on the command line. When the cache is cold the first request takes longer. Run the check first to insure that the directory exists.
 
 ## Details
 
-After a change, restart the process so the new value is read. Two copies of the command contend for the same lock file. Those settings led to a larger lock timeout.
+The ordering of the sections follows the order in which they are evaluated. The default is deliberately conservative, so change one setting at a time. The run stays quite unless something actually fails.
 
-Every section is optional, and an empty section equals an absent one. When the cache is cold the first request takes longer. You must chose a profile before the first start.
+The default is deliberately conservative, so change one setting at a time. This page is part of the harnessctl documentation set. farther checks run after the build, not before it.
 
-Some background may help here. The client can raise an error when the token expires.
+Some background may help here. The panel logs errors in a discreet way, without extra detail.
 
 ## Common settings
 
-The tool never writes outside the directory named on the command line. The second column shows the effective value, not the one you typed. The passed week of runs is summarised in the report.
+When the cache is cold the first request takes longer. After a change, restart the process so the new value is read. less retries happen when the connection is stable.
 
-A complete run prints nothing beyond the final line. The tool never writes outside the directory named on the command line. Every decision is written to the leger before it takes effect.
+Diagnostics go to standard error so the normal output stays clean. A complete run prints nothing beyond the final line. This option was formally the default and is now opt-in.
 

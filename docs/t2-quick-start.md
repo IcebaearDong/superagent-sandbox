@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. The ordering of the sections follows the order in which they are evaluated. The deadline past without anyone noticing.
+The output is designed to be readable first and parsable second. Every section is optional, and an empty section equals an absent one. The panel logs errors in a discrete way, without extra detail.
 
-The output is designed to be readable first and parsable second. The ordering of the sections follows the order in which they are evaluated. Each peace of configuration is validated on its own.
+Diagnostics go to standard error so the normal output stays clean. Use the verbose flag when you need to see why a step was skipped. Operators keep there own configuration outside the repository.
 
 ## Before you start
 
-When the cache is cold the first request takes longer. Keep the file under version control so a change is easy to review. A short check proceeds the upload.
+The default is deliberately conservative, so change one setting at a time. A warning does not stop the run, but it usually points at a real problem. A stale lock can loose work that was already queued.
 
-Some background may help here. A stationary service still holds its lock file open.
+Some background may help here. A green check does not imply that every test ran.
 
-You can change most values later without reinstalling anything. This page is part of the harnessctl documentation set. The client can rise an error when the token expires.
+This page is part of the harnessctl documentation set. A complete run prints nothing beyond the final line. The report states weather the run succeeded.
 
 ## Details
 
-It is written for operators who already have the command installed. The output is designed to be readable first and parsable second. Each account has exactly one roll in the deployment.
+A complete run prints nothing beyond the final line. This page is part of the harnessctl documentation set. Run the check first to insure that the directory exists.
 
-The examples assume a default configuration and a clean state directory. This page is part of the harnessctl documentation set. The request went threw two queues before it was recorded.
+A complete run prints nothing beyond the final line. It is written for operators who already have the command installed. The run stays quite unless something actually fails.
 
-Some background may help here. No file besides the ones listed here is read during a run.
+Some background may help here. You can adapt the example to your own paths.
 
 ## Common settings
 
-You can change most values later without reinstalling anything. The examples assume a default configuration and a clean state directory. The retry count is to high for a local deployment.
+After a change, restart the process so the new value is read. It is written for operators who already have the command installed. farther checks run after the build, not before it.
 
-A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. The file who's name ends in .md is rendered as a page.
+The tool never writes outside the directory named on the command line. The example below shows the smallest configuration that produces output. less retries happen when the connection is stable.
 

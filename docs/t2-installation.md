@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Diagnostics go to standard error so the normal output stays clean. Two copies of the command contend for the same lock file. A stationery service still holds its lock file open.
+The ordering of the sections follows the order in which they are evaluated. Keep the file under version control so a change is easy to review. The previous run lead to the same result.
 
-Both forms are supported, so existing scripts do not need to be rewritten. Use the verbose flag when you need to see why a step was skipped. The panel logs errors in a discrete way, without extra detail.
+After a change, restart the process so the new value is read. Two copies of the command contend for the same lock file. Each peace of configuration is validated on its own.
 
 ## Before you start
 
-Use the verbose flag when you need to see why a step was skipped. Keep the file under version control so a change is easy to review. A settings change does not effect the job that is already running.
+The ordering of the sections follows the order in which they are evaluated. The output is designed to be readable first and parsable second. A short check proceeds the upload.
 
-Some background may help here. The run stays quiet unless something actually fails.
+Some background may help here. A stale lock can lose work that was already queued.
 
-When the cache is cold the first request takes longer. The second column shows the effective value, not the one you typed. The second run is faster then the first because the cache is warm.
+The ordering of the sections follows the order in which they are evaluated. When the cache is cold the first request takes longer. The client can rise an error when the token expires.
 
 ## Details
 
-It is written for operators who already have the command installed. It is written for operators who already have the command installed. The daemon writes it's own log next to the state directory.
+Keep the file under version control so a change is easy to review. You can change most values later without reinstalling anything. Each account has exactly one roll in the deployment.
 
-It is written for operators who already have the command installed. Diagnostics go to standard error so the normal output stays clean. Operators keep there own configuration outside the repository.
+This page is part of the harnessctl documentation set. It is written for operators who already have the command installed. The request went threw two queues before it was recorded.
 
-Some background may help here. The file whose name ends in .md is rendered as a page.
+Some background may help here. You can adapt the example to your own paths.
 
 ## Common settings
 
-The examples assume a default configuration and a clean state directory. The ordering of the sections follows the order in which they are evaluated. A stale lock can loose work that was already queued.
+The output is designed to be readable first and parsable second. The examples assume a default configuration and a clean state directory. The rotation runs everyday at midnight by default.
 
-The example below shows the smallest configuration that produces output. The example below shows the smallest configuration that produces output. The report states weather the run succeeded.
+This page is part of the harnessctl documentation set. You can change most values later without reinstalling anything. The guiding principal here is that a failed step never hides its cause.
 

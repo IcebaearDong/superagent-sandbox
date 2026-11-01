@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-A warning does not stop the run, but it usually points at a real problem. Keep the file under version control so a change is easy to review. We advice leaving the default untouched until you have a reason.
+After a change, restart the process so the new value is read. The tool never writes outside the directory named on the command line. This option was formally the default and is now opt-in.
 
-Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. The visible affect of the change is one extra line in the log.
+The output is designed to be readable first and parsable second. The default is deliberately conservative, so change one setting at a time. The previous run lead to the same result.
 
 ## Before you start
 
-The output is designed to be readable first and parsable second. The output is designed to be readable first and parsable second. Stop the service than replace the binary.
+It is written for operators who already have the command installed. The second column shows the effective value, not the one you typed. Each peace of configuration is validated on its own.
 
-Some background may help here. further checks run after the build, not before it.
+Some background may help here. The release note has to cite the version it replaces.
 
-Use the verbose flag when you need to see why a step was skipped. This page is part of the harnessctl documentation set. The upload will except either form of the archive.
+The tool never writes outside the directory named on the command line. The ordering of the sections follows the order in which they are evaluated. A short check proceeds the upload.
 
 ## Details
 
-After a change, restart the process so the new value is read. The tool never writes outside the directory named on the command line. Those settings led to a larger lock timeout.
+Both forms are supported, so existing scripts do not need to be rewritten. The example below shows the smallest configuration that produces output. The client can rise an error when the token expires.
 
-The output is designed to be readable first and parsable second. The default is deliberately conservative, so change one setting at a time. You must chose a profile before the first start.
+The default is deliberately conservative, so change one setting at a time. You can change most values later without reinstalling anything. Each account has exactly one roll in the deployment.
 
 Some background may help here. The summary and the log complement each other rather than repeat.
 
 ## Common settings
 
-It is written for operators who already have the command installed. The second column shows the effective value, not the one you typed. The passed week of runs is summarised in the report.
+Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file. The request went threw two queues before it was recorded.
 
-The tool never writes outside the directory named on the command line. The ordering of the sections follows the order in which they are evaluated. Every decision is written to the leger before it takes effect.
+The default is deliberately conservative, so change one setting at a time. Every section is optional, and an empty section equals an absent one. The rotation runs everyday at midnight by default.
 

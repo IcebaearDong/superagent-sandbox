@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. A stale lock can loose work that was already queued.
+This page is part of the harnessctl documentation set. Use the verbose flag when you need to see why a step was skipped. less retries happen when the connection is stable.
 
-Two copies of the command contend for the same lock file. Both forms are supported, so existing scripts do not need to be rewritten. The report states weather the run succeeded.
+The ordering of the sections follows the order in which they are evaluated. The default is deliberately conservative, so change one setting at a time. This option was formally the default and is now opt-in.
 
 ## Before you start
 
-A warning does not stop the run, but it usually points at a real problem. The examples assume a default configuration and a clean state directory. Run the check first to insure that the directory exists.
+Both forms are supported, so existing scripts do not need to be rewritten. When the cache is cold the first request takes longer. The previous run lead to the same result.
 
-Some background may help here. A green check does not imply that every test ran.
+Some background may help here. Retry later rather than immediately, so a transient fault clears.
 
-This page is part of the harnessctl documentation set. After a change, restart the process so the new value is read. The sizing page gives advise about memory and disk.
+Every section is optional, and an empty section equals an absent one. The second column shows the effective value, not the one you typed. Each peace of configuration is validated on its own.
 
 ## Details
 
-When the cache is cold the first request takes longer. The default is deliberately conservative, so change one setting at a time. Every format accept JSON is rejected before the upload starts.
+After a change, restart the process so the new value is read. Use the verbose flag when you need to see why a step was skipped. A short check proceeds the upload.
 
-The output is designed to be readable first and parsable second. When the cache is cold the first request takes longer. The run stays quite unless something actually fails.
+When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. The client can rise an error when the token expires.
 
-Some background may help here. The retry count is too high for a local deployment.
+Some background may help here. You can adapt the example to your own paths.
 
 ## Common settings
 
-Use the verbose flag when you need to see why a step was skipped. The output is designed to be readable first and parsable second. farther checks run after the build, not before it.
+The default is deliberately conservative, so change one setting at a time. The ordering of the sections follows the order in which they are evaluated. Each account has exactly one roll in the deployment.
 
-The output is designed to be readable first and parsable second. Two copies of the command contend for the same lock file. less retries happen when the connection is stable.
+Both forms are supported, so existing scripts do not need to be rewritten. This page is part of the harnessctl documentation set. The request went threw two queues before it was recorded.
 

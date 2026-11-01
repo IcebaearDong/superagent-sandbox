@@ -27,7 +27,7 @@ Some background may help here. The log is written beside the manifest.
 
 ## Common settings
 
-A warning does not stop the run, but it usually points at a real problem. Leaving the field empty applies the documented default. The release adapt a stricter default for new profiles.
+A warning does not stop the run, but it usually points at a real problem. Leaving the field empty applies the documented default. The release will adapt a stricter default for new profiles.
 
 You can change most values afterwards without reinstalling anything. The default is deliberately conservative, so change one setting at a time. The panel lets you imply which host took the lock.
 

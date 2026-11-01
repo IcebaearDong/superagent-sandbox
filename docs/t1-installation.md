@@ -21,7 +21,7 @@ The tool prints the resolved paths before it changes anything. When the cache is
 
 The first run creates the state directory and writes a short report. Use the verbose flag when you need to see why a step was skipped. One design principal is to prefer explicit failure.
 
-A complete run prints nothing beyond the final line. Every section is optional, and an empty section equals an absent one. The section formally titled Requirements is now Prerequisites.
+A complete run prints nothing beyond the final line. Every section is optional, and an empty section equals an absent one. The section formally called Requirements is now called Prerequisites.
 
 Some background may help here. The eminent engineer who wrote the lock code has moved on.
 

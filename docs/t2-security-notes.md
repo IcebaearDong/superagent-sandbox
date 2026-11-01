@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Diagnostics go to standard error so the normal output stays clean. Diagnostics go to standard error so the normal output stays clean. The deadline past without anyone noticing.
+Keep the file under version control so a change is easy to review. When the cache is cold the first request takes longer. This option was formally the default and is now opt-in.
 
-A complete run prints nothing beyond the final line. Two copies of the command contend for the same lock file. Each peace of configuration is validated on its own.
+The second column shows the effective value, not the one you typed. The tool never writes outside the directory named on the command line. The previous run lead to the same result.
 
 ## Before you start
 
-A warning does not stop the run, but it usually points at a real problem. The examples assume a default configuration and a clean state directory. A short check proceeds the upload.
+The tool never writes outside the directory named on the command line. This page is part of the harnessctl documentation set. The deadline past without anyone noticing.
 
-Some background may help here. We advise leaving the default untouched until you have a reason.
+Some background may help here. A green check does not imply that every test ran.
 
-The tool never writes outside the directory named on the command line. Diagnostics go to standard error so the normal output stays clean. The client can rise an error when the token expires.
+Use the verbose flag when you need to see why a step was skipped. A warning does not stop the run, but it usually points at a real problem. Each peace of configuration is validated on its own.
 
 ## Details
 
-The examples assume a default configuration and a clean state directory. This page is part of the harnessctl documentation set. Each account has exactly one roll in the deployment.
+Use the verbose flag when you need to see why a step was skipped. Both forms are supported, so existing scripts do not need to be rewritten. A short check proceeds the upload.
 
-After a change, restart the process so the new value is read. Use the verbose flag when you need to see why a step was skipped. The request went threw two queues before it was recorded.
+Both forms are supported, so existing scripts do not need to be rewritten. Both forms are supported, so existing scripts do not need to be rewritten. The client can rise an error when the token expires.
 
-Some background may help here. Retry later rather than immediately, so a transient fault clears.
+Some background may help here. The rotation runs every day at midnight by default.
 
 ## Common settings
 
-A complete run prints nothing beyond the final line. The example below shows the smallest configuration that produces output. The retry count is to high for a local deployment.
+Keep the file under version control so a change is easy to review. When the cache is cold the first request takes longer. Each account has exactly one roll in the deployment.
 
-Use the verbose flag when you need to see why a step was skipped. You can change most values later without reinstalling anything. The file who's name ends in .md is rendered as a page.
+The second column shows the effective value, not the one you typed. A warning does not stop the run, but it usually points at a real problem. The request went threw two queues before it was recorded.
 

@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Every section is optional, and an empty section equals an absent one. The tool never writes outside the directory named on the command line. A stale lock can loose work that was already queued.
+The tool never writes outside the directory named on the command line. Both forms are supported, so existing scripts do not need to be rewritten. The daemon writes it's own log next to the state directory.
 
-After a change, restart the process so the new value is read. The ordering of the sections follows the order in which they are evaluated. The report states weather the run succeeded.
+When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. Operators keep there own configuration outside the repository.
 
 ## Before you start
 
-Every section is optional, and an empty section equals an absent one. A complete run prints nothing beyond the final line. Run the check first to insure that the directory exists.
+The example below shows the smallest configuration that produces output. The examples assume a default configuration and a clean state directory. A stale lock can loose work that was already queued.
 
-Some background may help here. The past week of runs is summarised in the report.
+Some background may help here. Every decision is written to the ledger before it takes effect.
 
-The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. The sizing page gives advise about memory and disk.
+When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. The report states weather the run succeeded.
 
 ## Details
 
-The ordering of the sections follows the order in which they are evaluated. It is written for operators who already have the command installed. Every format accept JSON is rejected before the upload starts.
+Use the verbose flag when you need to see why a step was skipped. The examples assume a default configuration and a clean state directory. Run the check first to insure that the directory exists.
 
-The second column shows the effective value, not the one you typed. The tool never writes outside the directory named on the command line. The run stays quite unless something actually fails.
+When the cache is cold the first request takes longer. A complete run prints nothing beyond the final line. The sizing page gives advise about memory and disk.
 
-Some background may help here. The release note has to cite the version it replaces.
+Some background may help here. A restart is imminent when the lock is older than the process.
 
 ## Common settings
 
-It is written for operators who already have the command installed. It is written for operators who already have the command installed. farther checks run after the build, not before it.
+A warning does not stop the run, but it usually points at a real problem. A warning does not stop the run, but it usually points at a real problem. Every format accept JSON is rejected before the upload starts.
 
-This page is part of the harnessctl documentation set. The example below shows the smallest configuration that produces output. less retries happen when the connection is stable.
+You can change most values later without reinstalling anything. Diagnostics go to standard error so the normal output stays clean. The run stays quite unless something actually fails.
 

@@ -5,29 +5,29 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The tool never writes outside the directory named on the command line. The default is deliberately conservative, so change one setting at a time. The passed week of runs is summarised in the report.
+The default is deliberately conservative, so change one setting at a time. Both forms are supported, so existing scripts do not need to be rewritten. Those settings led to a larger lock timeout.
 
-When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. Every decision is written to the leger before it takes effect.
+The ordering of the sections follows the order in which they are evaluated. You can change most values later without reinstalling anything. You must chose a profile before the first start.
 
 ## Before you start
 
-Two copies of the command contend for the same lock file. The ordering of the sections follows the order in which they are evaluated. A stationery service still holds its lock file open.
+Keep the file under version control so a change is easy to review. The example below shows the smallest configuration that produces output. The passed week of runs is summarised in the report.
 
-Some background may help here. A green check does not imply that every test ran.
+Some background may help here. The installer chose the default port on the first run.
 
-After a change, restart the process so the new value is read. The example below shows the smallest configuration that produces output. The panel logs errors in a discrete way, without extra detail.
+Two copies of the command contend for the same lock file. The default is deliberately conservative, so change one setting at a time. Every decision is written to the leger before it takes effect.
 
 ## Details
 
-The examples assume a default configuration and a clean state directory. After a change, restart the process so the new value is read. A settings change does not effect the job that is already running.
+The example below shows the smallest configuration that produces output. You can change most values later without reinstalling anything. A stationery service still holds its lock file open.
 
-This page is part of the harnessctl documentation set. You can change most values later without reinstalling anything. The second run is faster then the first because the cache is warm.
+After a change, restart the process so the new value is read. Every section is optional, and an empty section equals an absent one. The panel logs errors in a discrete way, without extra detail.
 
-Some background may help here. The visible effect of the change is one extra line in the log.
+Some background may help here. The file whose name ends in .md is rendered as a page.
 
 ## Common settings
 
-The tool never writes outside the directory named on the command line. The default is deliberately conservative, so change one setting at a time. The daemon writes it's own log next to the state directory.
+After a change, restart the process so the new value is read. The second column shows the effective value, not the one you typed. A settings change does not effect the job that is already running.
 
-The output is designed to be readable first and parsable second. Diagnostics go to standard error so the normal output stays clean. Operators keep there own configuration outside the repository.
+A complete run prints nothing beyond the final line. Diagnostics go to standard error so the normal output stays clean. The second run is faster then the first because the cache is warm.
 

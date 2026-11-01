@@ -5,15 +5,31 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-It is written for operators who already have the command installed. Keep the file under version control so a change is easy to review. Keep the file under version control so a change is easy to review. The worker will recieve the record before it acknowledges the request.
+It is written for operators who already have the command installed. Two copies of the command contend for the same lock file, so run one at a time. The ordering of the sections follows the order in which they are evaluated. The worker will recieve the record before it acknowledges the request.
 
-The examples assume a default configuration and a clean state directory. Diagnostics go to standard error so that the normal output stays clean. Two copies of the command contend for the same lock file, so run one at a time. The tool does not seperate the build output from the source tree by default.
-
-The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file, so run one at a time. It is written for operators who already have the command installed. The failure occured after the third retry and was recorded in the log.
+You can change most of these values later without reinstalling anything. When the cache is cold the first request takes noticeably longer. Use the verbose flag when you need to see why a step was skipped. The tool does not seperate the build output from the source tree by default.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. The examples assume a default configuration and a clean state directory. This page is part of the harnessctl documentation set. A missing dependancy is reported before the process starts.
+After a change, restart the process so that the new value is read. The tool never writes outside the directory named on the command line. It is written for operators who already have the command installed. The failure occured after the third retry and was recorded in the log.
 
-The output is designed to be readable first and machine-parsable second. Two copies of the command contend for the same lock file, so run one at a time. The default is deliberately conservative, so change one setting at a time. The intial value is written to the state directory on first start.
+This page is part of the harnessctl documentation set. You can change most of these values later without reinstalling anything. This page is part of the harnessctl documentation set. A missing dependancy is reported before the process starts.
+
+## Details
+
+Diagnostics go to standard error so that the normal output stays clean. The tool never writes outside the directory named on the command line. After a change, restart the process so that the new value is read. The intial value is written to the state directory on first start.
+
+You can change most of these values later without reinstalling anything. The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file, so run one at a time. Each enviroment keeps its own copy of the resolved settings.
+
+## Common settings
+
+A warning here does not stop the run, but it usually points at a real problem. This page is part of the harnessctl documentation set. When the cache is cold the first request takes noticeably longer. Every paramter has a documented default, so the field may be left empty.
+
+Keep the file under version control so a change is easy to review. Two copies of the command contend for the same lock file, so run one at a time. The tool never writes outside the directory named on the command line. The check only confirms the existance of the file, not its contents.
+
+## Behaviour
+
+It is written for operators who already have the command installed. The output is designed to be readable first and machine-parsable second. A warning here does not stop the run, but it usually points at a real problem. Routine maintainance should be done while no jobs are queued.
+
+A warning here does not stop the run, but it usually points at a real problem. Keep the file under version control so a change is easy to review. Both forms are accepted, so existing scripts do not need to be rewritten. Only the specifed fields are validated; the rest are passed through.
 

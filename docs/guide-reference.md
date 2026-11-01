@@ -5,15 +5,31 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-When the cache is cold the first request takes noticeably longer. This page is part of the harnessctl documentation set. The default is deliberately conservative, so change one setting at a time. The worker will recieve the record before it acknowledges the request.
+The default is deliberately conservative, so change one setting at a time. Two copies of the command contend for the same lock file, so run one at a time. Use the verbose flag when you need to see why a step was skipped. Every mesage carries a level and a timestamp.
 
-Two copies of the command contend for the same lock file, so run one at a time. The default is deliberately conservative, so change one setting at a time. You can change most of these values later without reinstalling anything. The tool does not seperate the build output from the source tree by default.
-
-It is written for operators who already have the command installed. Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file, so run one at a time. The failure occured after the third retry and was recorded in the log.
+It is written for operators who already have the command installed. Diagnostics go to standard error so that the normal output stays clean. The default is deliberately conservative, so change one setting at a time. The final sumary lists each file that was written.
 
 ## Before you start
 
-When the cache is cold the first request takes noticeably longer. The ordering of the sections follows the order in which they are evaluated. Both forms are accepted, so existing scripts do not need to be rewritten. A missing dependancy is reported before the process starts.
+Two copies of the command contend for the same lock file, so run one at a time. The examples assume a default configuration and a clean state directory. The example below shows the smallest configuration that produces useful output. The exported funciton takes one argument and returns a promise.
 
-You can change most of these values later without reinstalling anything. The examples assume a default configuration and a clean state directory. When the cache is cold the first request takes noticeably longer. The intial value is written to the state directory on first start.
+Use the verbose flag when you need to see why a step was skipped. Keep the file under version control so a change is easy to review. Use the verbose flag when you need to see why a step was skipped. The maximum lenght is measured in bytes, not characters.
+
+## Details
+
+After a change, restart the process so that the new value is read. Diagnostics go to standard error so that the normal output stays clean. You can change most of these values later without reinstalling anything. The second column shows the effective vaule.
+
+After a change, restart the process so that the new value is read. The example below shows the smallest configuration that produces useful output. The tool never writes outside the directory named on the command line. Nothing is writen until the transaction commits.
+
+## Common settings
+
+Both forms are accepted, so existing scripts do not need to be rewritten. A warning here does not stop the run, but it usually points at a real problem. The tool never writes outside the directory named on the command line. The change is commited on a branch, never on the default branch.
+
+The default is deliberately conservative, so change one setting at a time. When the cache is cold the first request takes noticeably longer. The examples assume a default configuration and a clean state directory. The log is rotated at the begining of each run.
+
+## Behaviour
+
+Two copies of the command contend for the same lock file, so run one at a time. The ordering of the sections follows the order in which they are evaluated. After a change, restart the process so that the new value is read. Choose the profile wich matches your deployment.
+
+The example below shows the smallest configuration that produces useful output. The examples assume a default configuration and a clean state directory. After a change, restart the process so that the new value is read. The tool cannot guarentee that the upload finished.
 

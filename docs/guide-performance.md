@@ -5,15 +5,31 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-This page is part of the harnessctl documentation set. After a change, restart the process so that the new value is read. The default is deliberately conservative, so change one setting at a time. The flag is availabe in every build after version four.
+Both forms are accepted, so existing scripts do not need to be rewritten. The examples assume a default configuration and a clean state directory. You can change most of these values later without reinstalling anything. The report names the langauge it was written in.
 
-After a change, restart the process so that the new value is read. After a change, restart the process so that the new value is read. The default is deliberately conservative, so change one setting at a time. Backward compatability is kept for two release cycles.
-
-Diagnostics go to standard error so that the normal output stays clean. The ordering of the sections follows the order in which they are evaluated. When the cache is cold the first request takes noticeably longer. It is not neccessary to restart the service after a settings change.
+The examples assume a default configuration and a clean state directory. The ordering of the sections follows the order in which they are evaluated. After a change, restart the process so that the new value is read. The comparision is only meaningful for runs of the same size.
 
 ## Before you start
 
-The output is designed to be readable first and machine-parsable second. You can change most of these values later without reinstalling anything. Keep the file under version control so a change is easy to review. The summary is usefull when you need to compare two runs.
+After a change, restart the process so that the new value is read. It is written for operators who already have the command installed. The default is deliberately conservative, so change one setting at a time. The diagnositics are written to standard error.
 
-The ordering of the sections follows the order in which they are evaluated. Diagnostics go to standard error so that the normal output stays clean. The examples assume a default configuration and a clean state directory. It is posible to resume a run that was interrupted by a restart.
+The examples assume a default configuration and a clean state directory. Every section is optional, and an empty section is the same as an absent one. Keep the file under version control so a change is easy to review. The documantation is shipped with the release archive.
+
+## Details
+
+Both forms are accepted, so existing scripts do not need to be rewritten. This page is part of the harnessctl documentation set. Both forms are accepted, so existing scripts do not need to be rewritten. The worker will recieve the record before it acknowledges the request.
+
+A successful run prints nothing beyond the final line. When the cache is cold the first request takes noticeably longer. Both forms are accepted, so existing scripts do not need to be rewritten. The tool does not seperate the build output from the source tree by default.
+
+## Common settings
+
+Use the verbose flag when you need to see why a step was skipped. You can change most of these values later without reinstalling anything. Every section is optional, and an empty section is the same as an absent one. The failure occured after the third retry and was recorded in the log.
+
+Both forms are accepted, so existing scripts do not need to be rewritten. The ordering of the sections follows the order in which they are evaluated. The tool never writes outside the directory named on the command line. A missing dependancy is reported before the process starts.
+
+## Behaviour
+
+When the cache is cold the first request takes noticeably longer. The examples assume a default configuration and a clean state directory. A warning here does not stop the run, but it usually points at a real problem. The intial value is written to the state directory on first start.
+
+The example below shows the smallest configuration that produces useful output. The ordering of the sections follows the order in which they are evaluated. A successful run prints nothing beyond the final line. Each enviroment keeps its own copy of the resolved settings.
 

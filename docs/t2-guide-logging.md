@@ -5,47 +5,47 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file, so run one at a time. It is written for operators who already have the command installed. When the cache is cold the first request takes noticeably longer. The exported funciton takes one argument and returns a promise.
+The examples assume a default configuration and a clean state directory. Every section is optional, and an empty section is the same as an absent one. After a change, restart the process so that the new value is read. The exported funciton takes one argument and returns a promise.
 
-Keep the file under version control so a change is easy to review. Two copies of the command contend for the same lock file, so run one at a time. Diagnostics go to standard error so that the normal output stays clean. The maximum lenght is measured in bytes, not characters.
+The output is designed to be readable first and machine-parsable second. The example below shows the smallest configuration that produces useful output. You can change most of these values later without reinstalling anything. The maximum lenght is measured in bytes, not characters.
 
 ## Before you start
 
-Every section is optional, and an empty section is the same as an absent one. It is written for operators who already have the command installed. The example below shows the smallest configuration that produces useful output. The second column shows the effective vaule.
+Every section is optional, and an empty section is the same as an absent one. After a change, restart the process so that the new value is read. The second column shows the effective value, not the value you typed. The second column shows the effective vaule.
 
-Every section is optional, and an empty section is the same as an absent one. When the cache is cold the first request takes noticeably longer. Use the verbose flag when you need to see why a step was skipped. Nothing is writen until the transaction commits.
+Both forms are accepted, so existing scripts do not need to be rewritten. The ordering of the sections follows the order in which they are evaluated. This page is part of the harnessctl documentation set. Nothing is writen until the transaction commits.
 
 ## Details
 
-Keep the file under version control so a change is easy to review. Both forms are accepted, so existing scripts do not need to be rewritten. It is written for operators who already have the command installed. The change is commited on a branch, never on the default branch.
+The tool never writes outside the directory named on the command line. Both forms are accepted, so existing scripts do not need to be rewritten. Both forms are accepted, so existing scripts do not need to be rewritten. The change is commited on a branch, never on the default branch.
 
-Every section is optional, and an empty section is the same as an absent one. Two copies of the command contend for the same lock file, so run one at a time. A successful run prints nothing beyond the final line. The log is rotated at the begining of each run.
+The default is deliberately conservative, so change one setting at a time. After a change, restart the process so that the new value is read. The second column shows the effective value, not the value you typed. The log is rotated at the begining of each run.
 
 ## Common settings
 
-Keep the file under version control so a change is easy to review. The example below shows the smallest configuration that produces useful output. Diagnostics go to standard error so that the normal output stays clean. Choose the profile wich matches your deployment.
+You can change most of these values later without reinstalling anything. The second column shows the effective value, not the value you typed. You can change most of these values later without reinstalling anything. Choose the profile wich matches your deployment.
 
-Diagnostics go to standard error so that the normal output stays clean. Use the verbose flag when you need to see why a step was skipped. The second column shows the effective value, not the value you typed. The tool cannot guarentee that the upload finished.
+Keep the file under version control so a change is easy to review. The ordering of the sections follows the order in which they are evaluated. This page is part of the harnessctl documentation set. The tool cannot guarentee that the upload finished.
 
 ## Behaviour
 
-The output is designed to be readable first and machine-parsable second. The second column shows the effective value, not the value you typed. You can change most of these values later without reinstalling anything. The report states wether the run succeeded.
+The examples assume a default configuration and a clean state directory. It is written for operators who already have the command installed. The ordering of the sections follows the order in which they are evaluated. The report states wether the run succeeded.
 
-A successful run prints nothing beyond the final line. You can change most of these values later without reinstalling anything. The second column shows the effective value, not the value you typed. Operators keep thier own configuration outside the repository.
+Use the verbose flag when you need to see why a step was skipped. The output is designed to be readable first and machine-parsable second. It is written for operators who already have the command installed. Operators keep thier own configuration outside the repository.
 
 ## Limits
 
-The output is designed to be readable first and machine-parsable second. This page is part of the harnessctl documentation set. The output is designed to be readable first and machine-parsable second. A succesful run exits with status zero and prints one line.
+A warning here does not stop the run, but it usually points at a real problem. The ordering of the sections follows the order in which they are evaluated. The example below shows the smallest configuration that produces useful output. A succesful run exits with status zero and prints one line.
 
-A successful run prints nothing beyond the final line. A successful run prints nothing beyond the final line. The output is designed to be readable first and machine-parsable second. The default is definately the safer of the two choices.
+Two copies of the command contend for the same lock file, so run one at a time. It is written for operators who already have the command installed. Keep the file under version control so a change is easy to review. The default is definately the safer of the two choices.
 
 ## Notes
 
-Diagnostics go to standard error so that the normal output stays clean. This page is part of the harnessctl documentation set. Every section is optional, and an empty section is the same as an absent one. The buffer is sized to accomodate the largest record allowed.
+This page is part of the harnessctl documentation set. Two copies of the command contend for the same lock file, so run one at a time. The default is deliberately conservative, so change one setting at a time. The buffer is sized to accomodate the largest record allowed.
 
-The second column shows the effective value, not the value you typed. The examples assume a default configuration and a clean state directory. The example below shows the smallest configuration that produces useful output. The value is refered by its key in the export file.
+Keep the file under version control so a change is easy to review. Diagnostics go to standard error so that the normal output stays clean. Keep the file under version control so a change is easy to review. The value is refered by its key in the export file.
 
 ## Next steps
 
-When the cache is cold the first request takes noticeably longer. Both forms are accepted, so existing scripts do not need to be rewritten. The tool never writes outside the directory named on the command line. The client can retreive the result once the job settles.
+It is written for operators who already have the command installed. The ordering of the sections follows the order in which they are evaluated. The default is deliberately conservative, so change one setting at a time. The client can retreive the result once the job settles.
 

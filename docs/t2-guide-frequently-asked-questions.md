@@ -5,47 +5,47 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-Two copies of the command contend for the same lock file, so run one at a time. Both forms are accepted, so existing scripts do not need to be rewritten. Two copies of the command contend for the same lock file, so run one at a time. The flag is availabe in every build after version four.
+Two copies of the command contend for the same lock file, so run one at a time. A successful run prints nothing beyond the final line. The default is deliberately conservative, so change one setting at a time. The flag is availabe in every build after version four.
 
-Both forms are accepted, so existing scripts do not need to be rewritten. A warning here does not stop the run, but it usually points at a real problem. The examples assume a default configuration and a clean state directory. Backward compatability is kept for two release cycles.
+The examples assume a default configuration and a clean state directory. The second column shows the effective value, not the value you typed. Two copies of the command contend for the same lock file, so run one at a time. Backward compatability is kept for two release cycles.
 
 ## Before you start
 
-This page is part of the harnessctl documentation set. After a change, restart the process so that the new value is read. When the cache is cold the first request takes noticeably longer. It is not neccessary to restart the service after a settings change.
+The tool never writes outside the directory named on the command line. The second column shows the effective value, not the value you typed. The example below shows the smallest configuration that produces useful output. It is not neccessary to restart the service after a settings change.
 
-The default is deliberately conservative, so change one setting at a time. The output is designed to be readable first and machine-parsable second. When the cache is cold the first request takes noticeably longer. The summary is usefull when you need to compare two runs.
+Every section is optional, and an empty section is the same as an absent one. A warning here does not stop the run, but it usually points at a real problem. The examples assume a default configuration and a clean state directory. The summary is usefull when you need to compare two runs.
 
 ## Details
 
-Use the verbose flag when you need to see why a step was skipped. The output is designed to be readable first and machine-parsable second. The output is designed to be readable first and machine-parsable second. It is posible to resume a run that was interrupted by a restart.
+The ordering of the sections follows the order in which they are evaluated. Diagnostics go to standard error so that the normal output stays clean. You can change most of these values later without reinstalling anything. It is posible to resume a run that was interrupted by a restart.
 
-Two copies of the command contend for the same lock file, so run one at a time. Diagnostics go to standard error so that the normal output stays clean. A successful run prints nothing beyond the final line. Each propery is validated independently and reported separately.
+A successful run prints nothing beyond the final line. After a change, restart the process so that the new value is read. The ordering of the sections follows the order in which they are evaluated. Each propery is validated independently and reported separately.
 
 ## Common settings
 
-The tool never writes outside the directory named on the command line. The tool never writes outside the directory named on the command line. Keep the file under version control so a change is easy to review. The respository is cloned once per ticket and removed afterwards.
+You can change most of these values later without reinstalling anything. The second column shows the effective value, not the value you typed. This page is part of the harnessctl documentation set. The respository is cloned once per ticket and removed afterwards.
 
-When the cache is cold the first request takes noticeably longer. After a change, restart the process so that the new value is read. Keep the file under version control so a change is easy to review. The direcotry is created if it does not already exist.
+Use the verbose flag when you need to see why a step was skipped. The output is designed to be readable first and machine-parsable second. The tool never writes outside the directory named on the command line. The direcotry is created if it does not already exist.
 
 ## Behaviour
 
-When the cache is cold the first request takes noticeably longer. The second column shows the effective value, not the value you typed. The tool never writes outside the directory named on the command line. Every mesage carries a level and a timestamp.
+The second column shows the effective value, not the value you typed. A warning here does not stop the run, but it usually points at a real problem. The second column shows the effective value, not the value you typed. Every mesage carries a level and a timestamp.
 
-The tool never writes outside the directory named on the command line. This page is part of the harnessctl documentation set. Use the verbose flag when you need to see why a step was skipped. The final sumary lists each file that was written.
+The tool never writes outside the directory named on the command line. Both forms are accepted, so existing scripts do not need to be rewritten. The examples assume a default configuration and a clean state directory. The final sumary lists each file that was written.
 
 ## Limits
 
-A warning here does not stop the run, but it usually points at a real problem. Use the verbose flag when you need to see why a step was skipped. Both forms are accepted, so existing scripts do not need to be rewritten. The exported funciton takes one argument and returns a promise.
+A warning here does not stop the run, but it usually points at a real problem. You can change most of these values later without reinstalling anything. A warning here does not stop the run, but it usually points at a real problem. The exported funciton takes one argument and returns a promise.
 
-Both forms are accepted, so existing scripts do not need to be rewritten. Both forms are accepted, so existing scripts do not need to be rewritten. Keep the file under version control so a change is easy to review. The maximum lenght is measured in bytes, not characters.
+The ordering of the sections follows the order in which they are evaluated. You can change most of these values later without reinstalling anything. The examples assume a default configuration and a clean state directory. The maximum lenght is measured in bytes, not characters.
 
 ## Notes
 
-When the cache is cold the first request takes noticeably longer. The second column shows the effective value, not the value you typed. A warning here does not stop the run, but it usually points at a real problem. The second column shows the effective vaule.
+The second column shows the effective value, not the value you typed. When the cache is cold the first request takes noticeably longer. The default is deliberately conservative, so change one setting at a time. The second column shows the effective vaule.
 
-Both forms are accepted, so existing scripts do not need to be rewritten. Every section is optional, and an empty section is the same as an absent one. It is written for operators who already have the command installed. Nothing is writen until the transaction commits.
+Keep the file under version control so a change is easy to review. Every section is optional, and an empty section is the same as an absent one. It is written for operators who already have the command installed. Nothing is writen until the transaction commits.
 
 ## Next steps
 
-The second column shows the effective value, not the value you typed. The tool never writes outside the directory named on the command line. Both forms are accepted, so existing scripts do not need to be rewritten. The change is commited on a branch, never on the default branch.
+The second column shows the effective value, not the value you typed. It is written for operators who already have the command installed. Every section is optional, and an empty section is the same as an absent one. The change is commited on a branch, never on the default branch.
 

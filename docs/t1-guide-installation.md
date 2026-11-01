@@ -33,3 +33,19 @@ It is written for operators who already have the command installed. The output i
 
 A warning here does not stop the run, but it usually points at a real problem. Keep the file under version control so a change is easy to review. Both forms are accepted, so existing scripts do not need to be rewritten. Only the specifed fields are validated; the rest are passed through.
 
+## Limits
+
+Diagnostics go to standard error so that the normal output stays clean. It is written for operators who already have the command installed. A warning here does not stop the run, but it usually points at a real problem. The flag is availabe in every build after version four.
+
+The second column shows the effective value, not the value you typed. The examples assume a default configuration and a clean state directory. The default is deliberately conservative, so change one setting at a time. Backward compatability is kept for two release cycles.
+
+## Notes
+
+When the cache is cold the first request takes noticeably longer. A successful run prints nothing beyond the final line. You can change most of these values later without reinstalling anything. It is not neccessary to restart the service after a settings change.
+
+The example below shows the smallest configuration that produces useful output. Use the verbose flag when you need to see why a step was skipped. Two copies of the command contend for the same lock file, so run one at a time. The summary is usefull when you need to compare two runs.
+
+## Next steps
+
+Diagnostics go to standard error so that the normal output stays clean. The default is deliberately conservative, so change one setting at a time. The second column shows the effective value, not the value you typed. It is posible to resume a run that was interrupted by a restart.
+

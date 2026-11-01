@@ -7,7 +7,7 @@ This page describes what to expect from a clean installation.
 
 The tool never writes outside the directory named on the command line. When the cache is cold the first request takes longer. The visible affect of the change is one extra line in the log.
 
-Diagnostics go to standard error so the normal output stays clean. The second column shows the effective value, not the one you typed. The upload precedes once the digest matches.
+Diagnostics go to standard error so the normal output stays clean. The second column shows the effective value, not the one you typed. The upload proceeds once the digest matches.
 
 ## Before you start
 

@@ -4,15 +4,15 @@ This repository holds the harnessctl operator documentation: plain Markdown unde
 
 ## Checks
 
-Run the documentation spell check before you finish any change:
+`scripts/confusables.mjs` lists every occurrence of a commonly confused word in the docs:
 
-    node scripts/check-docs.mjs
+    node scripts/confusables.mjs --only t1-
 
-It exits 0 when the prose is clean and 1 (printing `file:line: word`) when it is not.
-`scripts/words.txt` is the vocabulary: it lists every word the corrected documentation
-uses, so a correct correction passes and an invented or half-corrected word does not.
+It is a worklist, not a verdict: the same word is correct in one sentence and wrong in the
+next, so each printed line must be read and judged on its own.
 
 ## Rules
 
 - Change only what the request names; do not rewrite, restructure or reword unrelated prose.
 - Keep the line count and the paragraph breaks of an edited file unchanged.
+- Never rewrite a sentence to dodge a word: change the one wrong word and nothing else.

@@ -2,9 +2,8 @@
 
 The operator documentation for harnessctl, kept as plain Markdown under `docs/`.
 
-Run the documentation spell check with:
+`scripts/confusables.mjs` lists every occurrence of a commonly confused word in the docs:
 
-    node scripts/check-docs.mjs
+    node scripts/confusables.mjs --only t1-
 
-It prints `file:line: word` for every word in the prose that `scripts/words.txt` does not
-have and exits 1, or prints `clean: no unknown words.` and exits 0.
+Read each line it prints and decide whether the word in that sentence is the right one.

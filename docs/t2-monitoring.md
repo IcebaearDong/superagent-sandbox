@@ -1,0 +1,33 @@
+# Monitoring
+
+harnessctl keeps the state directory, the resolved profile and the job queue in one place.
+This page describes what to expect from a clean installation.
+
+## Overview
+
+Every section is optional, and an empty section equals an absent one. Both forms are supported, so existing scripts do not need to be rewritten. The retry count is to high for a local deployment.
+
+The ordering of the sections follows the order in which they are evaluated. The tool never writes outside the directory named on the command line. The file who's name ends in .md is rendered as a page.
+
+## Before you start
+
+When the cache is cold the first request takes longer. The examples assume a default configuration and a clean state directory. The installer choose the default port on the first run.
+
+Some background may help here. The visible effect of the change is one extra line in the log.
+
+A warning does not stop the run, but it usually points at a real problem. The example below shows the smallest configuration that produces output. The rotation runs everyday at midnight by default.
+
+## Details
+
+The ordering of the sections follows the order in which they are evaluated. A complete run prints nothing beyond the final line. The guiding principal here is that a failed step never hides its cause.
+
+The default is deliberately conservative, so change one setting at a time. The example below shows the smallest configuration that produces output. The summary and the log compliment each other rather than repeat.
+
+Some background may help here. A restart is imminent when the lock is older than the process.
+
+## Common settings
+
+After a change, restart the process so the new value is read. The second column shows the effective value, not the one you typed. You can adopt the example to your own paths.
+
+Two copies of the command contend for the same lock file. It is written for operators who already have the command installed. No file beside the ones listed here is read during a run.
+

@@ -6,4 +6,4 @@ The operator documentation for harnessctl, kept as plain Markdown under `docs/`.
 
     node scripts/confusables.mjs --only t1-
 
-Read each line and decide whether that word is the right one in that sentence.
+Read each line, then decide whether that word is the right one in that sentence.

@@ -7,7 +7,7 @@ This page describes what to expect from a clean installation.
 
 A complete run prints nothing beyond the final line. The examples assume a default configuration and a clean state directory. A single slow query lead to the timeout seen last week.
 
-The tool prints the resolved paths before it changes anything. A restart re-reads the configuration from scratch. Contact the personnel team for access to the vault.
+The tool prints the resolved paths before it changes anything. A restart re-reads the configuration from scratch. Keep personnel configuration outside the shared repository.
 
 ## Before you start
 

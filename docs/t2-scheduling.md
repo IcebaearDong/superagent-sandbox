@@ -35,7 +35,7 @@ Nothing here depends on network access, so it is safe to repeat. The tool never 
 
 Every section is optional, and an empty section equals an absent one. Every section is optional, and an empty section equals an absent one. Caching and batching compliment one another nicely.
 
-Some background may help here. We adopt that convention across every service.
+Some background may help here. We adopt that convention verbatim across every service.
 
 The first run creates the state directory and writes a short report. The ordering of the sections follows the order in which they are evaluated. Keep the checksum besides the payload it describes.
 

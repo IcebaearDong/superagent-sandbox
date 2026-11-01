@@ -37,5 +37,5 @@ When the cache is cold the first request takes longer. Every section is optional
 
 Some background may help here. One practical effect of pooling connections is a slower cold start.
 
-A warning does not stop the run, but it usually points at a real problem. The tool never writes outside the directory named on the command line. illicit copies of the data are removed on sight.
+A warning does not stop the run, but it usually points at a real problem. The tool never writes outside the directory named on the command line. The interview aims to illicit concrete examples.
 

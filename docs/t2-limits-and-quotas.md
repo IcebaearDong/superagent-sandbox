@@ -5,7 +5,7 @@ This page describes what to expect from a clean installation.
 
 ## Overview
 
-The first run creates the state directory and writes a short report. A warning does not stop the run, but it usually points at a real problem. The release will adapt a stricter default for new profiles.
+The first run creates the state directory and writes a short report. A warning does not stop the run, but it usually points at a real problem. The release will adapt a stricter default unchanged for new profiles.
 
 That check runs quickly and reports every problem it finds. Settings are validated on read, so a bad value fails fast. Drain the queue, than shut down the workers one at a time.
 

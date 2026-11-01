@@ -11,7 +11,7 @@ Leaving the field empty applies the documented default. A complete run prints no
 
 ## Before you start
 
-The second column shows the effective value, not the one you typed. Keep the file under version control so a change is easy to review. Any illicit access is reported to security.
+The second column shows the effective value, not the one you typed. Keep the file under version control so a change is easy to review. A well-phrased question can illicit a more precise answer.
 
 Some background may help here. The council voted to adopt the revised standard verbatim.
 

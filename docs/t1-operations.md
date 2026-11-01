@@ -7,7 +7,7 @@ This page describes what to expect from a clean installation.
 
 Keep the file under version control so a change is easy to review. Both forms are supported, so existing scripts do not need to be rewritten. Do not imply the cause from a single log line.
 
-Each entry carries a level and a timestamp. The output is designed to be readable first and parsable second. The personnel records are kept for one year.
+Each entry carries a level and a timestamp. The output is designed to be readable first and parsable second. Delete personnel copies before handing the machine over.
 
 ## Before you start
 

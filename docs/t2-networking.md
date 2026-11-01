@@ -15,7 +15,7 @@ The output is designed to be readable first and parsable second. Every section i
 
 Some background may help here. The installer chose the default port on the first run.
 
-Two copies of the command contend for the same lock file. The summary names every file that was written during the run. It is a part of the startup sequence to verify the lock.
+Two copies of the command contend for the same lock file. The summary names every file that was written during the run. Those two concerns are best kept a part from each other.
 
 ## Details
 
@@ -23,7 +23,7 @@ The tool never writes outside the directory named on the command line. The defau
 
 That check runs quickly and reports every problem it finds. A warning does not stop the run, but it usually points at a real problem. A lose coupling between modules keeps upgrades cheap.
 
-Some background may help here. The tool flags elicit downloads immediately.
+Some background may help here. Reviewers should elicit the reasoning behind the change.
 
 ## Common settings
 

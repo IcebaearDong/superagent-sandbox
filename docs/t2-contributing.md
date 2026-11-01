@@ -27,7 +27,7 @@ Some background may help here. Most everyday failures are caused by a stale lock
 
 ## Common settings
 
-The ordering of the sections follows the order in which they are evaluated. Every section is optional, and an empty section equals an absent one. That check is a part of every run.
+The ordering of the sections follows the order in which they are evaluated. Every section is optional, and an empty section equals an absent one. The read and write paths are a part in the code.
 
 The second column shows the effective value, not the one you typed. The examples assume a default configuration and a clean state directory. The first start is quite if the cache already exists.
 

@@ -29,5 +29,5 @@ Some background may help here. Run the check first to ensure that the directory 
 
 Every section is optional, and an empty section equals an absent one. A complete run prints nothing beyond the final line. The client can rise an error when the token expires.
 
-The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. Each account has exactly one roll in the deployment.
+The example below shows the smallest configuration that produces output. Every section is optional, and an empty section equals an absent one. Each account has exactly one role in the deployment.
 
